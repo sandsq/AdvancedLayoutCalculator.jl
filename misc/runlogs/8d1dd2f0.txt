@@ -1,0 +1,61 @@
+[ Info: Loading ./test/data/2701-0.txt1342-0.txt100-100-50-50ngramlengthmaxgrams4test.jld2
+[ Info: Ngramconfig("test", 4, [-1, 100, 100, 50, 50], Set(Keycode[_CIRC, _HASH, _EXLM, _QUES, _TILD, _DQUO, _PASS, _PERC, _DLR, _AMPR, _AT, _COLN, _ASTR]), :ngramlength, Set{Keycode}())
+[ Info: generating 3 layer version
+┌ Error: There is some error if the template keymap uses symmetric but non-shift keycodes.
+└ @ AdvancedLayoutCalculator.Calculators C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\Calculator\GeneticLayoutCalculator.jl:212
+┌ Info: GeneticLayoutCalculator{AdvancedScoreFunction}(rundescription = v0.7.0, 4x12 layout
+│ populationsize = 5000
+│ crossoverweight = 1.0
+│ swapmutationweight = 1.0
+│ identityweight = 0.0
+│ replacepointmutationweight = 1.0
+│ maxiter = 150
+│ earlystopping = #4
+│ replacementexclusions = Set(Keycode[_LBRC, _2, _1, _LPRN, _3, _RCBR, _6, _0, _5, _4, _8, _9, _RBRC, _7, _RPRN, _LCBR])
+│ selector = BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+│ , version = 0.1.0
+│ description = 
+│ holdliftpenalty = 2.0
+│ rollbonus = 0.5
+│ maxrolllength = 4
+│ samefingerpenalty = 4.0
+│ layerswitchcd = 4
+│ layerswitchpenalty = 3.0
+│ bigrambonus = 0.3
+│ multirowpenalty = 2.0
+│ multirowmod = 0.5
+└ )
+[ Info: Using BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+[ Info: Creating checkpoints/8d1dd2f0
+An initial random keymap: 
+--------
+   TAB@f       C       R       L       X       J       B       E    COMM       N       Y       S
+  LCTL@f       T       O    QUOT       G       F       Z       P     GRV       D       V   ENT@f
+     SFT    SCLN       I       H       W       A       K       U       Q       M       Y     SFT
+       P       X   GUI@f   ALT@f      LS   SPC@f  BSPC@f      LS       H       L    SCLN       O
+
+--------
+   ESC@f       J       B       I       F       K       R       W       A       G    QUOT       E
+  LCTL@f       Q  LBRC@f  LCBR@f  LPRN@f       Z       N  RPRN@f  RCBR@f  RBRC@f     GRV       T
+       M       U       V       D    COMM       S       C       V       N       U       W       M
+       Q       C       D       S      LS       F       I    QUOT       G       K       T       R
+
+--------
+       E   EQL@f     1@f     2@f     3@f  PLUS@f       Z       J       B     GRV    COMM       A
+    COMM  SLSH@f     4@f     5@f     6@f   ENT@f     GRV       A       J       Z       E       B
+       B  ASTR@f     7@f     8@f     9@f  UNDS@f       Z       A       E     GRV       J    COMM
+     GRV  MINS@f  COLN@f     0@f   DOT@f       B       Z      LS       A    COMM       J       E
+
+KeyLocation[(0, [0, 0]), (1, [4, 5]), (1, [4, 8])]
+
+6.0 3.5 1.0 1.0 1.0 4.0 4.0 1.0 1.0 1.0 3.5 6.0	
+5.0 1.0 0.5 0.5 0.5 3.0 3.0 0.5 0.5 0.5 1.0 5.0	
+7.0 2.5 1.5 1.5 1.5 8.0 8.0 1.5 1.5 1.5 2.5 7.0	
+15.0 13.0 6.0 3.0 1.0 0.5 0.5 1.0 3.0 6.0 13.0 15.0	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	(right,index)	(right,index)	(right,middle)	(right,ring)	(right,pinkie)	(right,pinkie)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	(right,index)	(right,index)	(right,middle)	(right,ring)	(right,pinkie)	(right,pinkie)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	(right,index)	(right,index)	(right,middle)	(right,ring)	(right,pinkie)	(right,pinkie)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	(right,index)	(right,index)	(right,middle)	(right,ring)	(right,pinkie)	(right,pinkie)	
+
+with corresponding score: 23.616888

@@ -1,0 +1,1312 @@
+xs::Vector{Float64} = collect(0:0.2:1)
+ys::Vector{Float64} = [1., 0.25, 0.5, 0.0, 0.25, 0.0]
+
+```initial 192.95
+swap count: 29295, layer switch swap count: 2115, identity count: 8688, replace count: 32181, crossover count: 177718
+┌ Info: final solution
+│ L1------------------------------------
+│   QUOT   DOT     T     O     O   SPC
+│    TAB     N     R     H     D     Y
+│   LCTL     T    LS   SPC     A     G
+│      X     P     S     S     C    LS
+│     __  CAPS   GUI   ALT  BSPC     L
+│ 
+│ L2------------------------------------
+│    ESC    __    __     F     O     J
+│    TAB  SCLN     U     W  COMM     N
+│   LCTL     E    LS     I     M   ENT
+│      B     V     Q     K  MINS    __
+│     __    __   GUI   ALT    LS   SFT
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│     __    __     7     8     9    LS
+│     __    __  COLN     0   DOT    __
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│      Z  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 3]), (1, [4, 6]), (2, [5, 5])]
+│ 
+└ corresponding score: 22.762406495146365
+[ Info: min of min score 21.853144952058226 occurs at index 42, which corresponds to iteration 41 (index 1 is the initial solution, so index 2 is when iteration 1 starts)
+min of min solution without unused keys
+L1------------------------------------
+     X   DOT     V  MINS     F   SPC
+   TAB     N     R     H     D     E
+  LCTL     T    LS   SPC     A     M
+    __     P   SFT  QUOT     C    LS
+    __  CAPS   GUI   ALT  BSPC     W
+
+L2------------------------------------
+   ESC     Z    __    __     K    __
+   TAB  SCLN     Q     W     L     S
+  LCTL     E    LS     O     I     B
+    __     Y    __     U     G  COMM
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+    __    __     7     8     9    LS
+    __    __  COLN     0   DOT     J
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 3]), (1, [4, 6]), (2, [5, 5])]
+
+corresponding score: 21.853144952058226
+644.666291 seconds (31.65 G allocations: 2.094 TiB, 75.51% gc time, 9.44% compilation time: <1% of which was recompilation)
+[164.16 ± 64.28, 153.85 ± 56.88, 151.38 ± 55.22, 149.59 ± 56.5, 149.46 ± 53.6, 151.22 ± 57.04, 152.35 ± 57.51, 154.14 ± 58.36, 157.07 ± 62.43, 158.09 ± 62.27, 129.94 ± 51.67, 119.33 ± 48.84, 112.02 ± 48.13, 106.28 ± 47.07, 100.57 ± 44.07, 96.36 ± 43.85, 92.56 ± 42.58, 89.24 ± 40.42, 84.89 ± 37.46, 81.37 ± 37.41, 80.67 ± 34.71, 79.42 ± 33.11, 77.34 ± 31.94, 75.49 ± 30.63, 73.24 ± 27.73, 72.3 ± 26.96, 70.81 ± 25.15, 70.08 ± 26.31, 69.91 ± 25.87, 69.9 ± 26.09, 60.59 ± 24.73, 55.97 ± 24.51, 39.25 ± 14.64, 43.24 ± 19.17, 43.44 ± 18.81, 41.47 ± 17.77, 39.91 ± 18.27, 39.96 ± 18.38, 40.57 ± 18.77, 41.35 ± 21.26, 41.04 ± 21.45, 40.31 ± 20.07, 38.59 ± 19.05, 37.78 ± 18.53, 37.96 ± 18.32, 37.96 ± 17.46, 39.08 ± 17.22, 39.73 ± 17.48, 41.4 ± 18.5, 42.57 ± 18.59, 54.51 ± 22.57]
+[70.7809, 73.4264, 66.2674, 64.3089, 56.0633, 53.7482, 56.3356, 57.6645, 57.6645, 48.588, 52.3328, 44.2369, 42.2058, 41.7766, 40.0072, 39.9446, 37.8836, 38.1807, 36.4962, 33.9388, 36.8638, 37.3874, 36.5047, 35.103, 34.2213, 35.1441, 31.3367, 32.7564, 33.2468, 31.9881, 31.2374, 30.3898, 28.7099, 26.511, 25.9313, 24.8874, 24.3222, 23.0814, 23.077, 22.4804, 22.0444, 21.8531, 22.0444, 22.4365, 22.2618, 22.2189, 22.2445, 22.4523, 22.4422, 22.5971, 22.7624]
+Min of the mins 21.8531
+Final score 22.762406495146365
+```
+
+xs = [0]
+ys = [0]
+189.54
+```swap count: 29145, layer switch swap count: 2107, identity count: 16108, replace count: 32292, crossover count: 170345
+┌ Info: final solution
+│ L1------------------------------------
+│      Q     G   SPC     I     W     Y
+│    TAB     D     A     H     T  COMM
+│   LCTL     R     E   SPC    LS     V
+│      X     B     F     U     M    LS
+│     __  CAPS   GUI   ALT  BSPC     O
+│ 
+│ L2------------------------------------
+│    ESC     J     K     C    __    __
+│    TAB   SFT     N     L  SCLN    __
+│   LCTL     G     S     I    LS    __
+│   MINS   DOT  QUOT     N  SLSH    __
+│     __    __   GUI   ALT    LS   ENT
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│      Z    __     7     8     9    LS
+│     __    __  COLN     0   DOT     P
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+│ 
+└ corresponding score: 16.407513860625688
+[ Info: min of min score 16.407513860625688 occurs at index 51, which corresponds to iteration 50 (index 1 is the initial solution, so index 2 is when iteration 1 starts)
+min of min solution without unused keys
+L1------------------------------------
+     Q     G   SPC     I     W     Y
+   TAB     D     A     H     T  COMM
+  LCTL     R     E   SPC    LS     V
+     X     B     F     U     M    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     J     K     C    __    __
+   TAB   SFT     N     L  SCLN    __
+  LCTL     G     S     I    LS    __
+  MINS   DOT  QUOT     N  SLSH    __
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+     Z    __     7     8     9    LS
+    __    __  COLN     0   DOT     P
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+corresponding score: 16.407513860625688
+423.909528 seconds (21.27 G allocations: 1.404 TiB, 74.82% gc time, 12.64% compilation time: <1% of which was recompilation)
+[164.7 ± 65.71, 112.82 ± 40.13, 100.98 ± 39.64, 83.24 ± 38.45, 75.86 ± 40.79, 68.07 ± 37.29, 60.45 ± 34.53, 54.82 ± 33.71, 54.97 ± 33.46, 56.24 ± 35.36, 49.89 ± 32.2, 36.59 ± 20.07, 33.11 ± 15.01, 37.8 ± 24.92, 25.25 ± 6.92, 26.31 ± 9.91, 24.74 ± 6.88, 25.14 ± 7.83, 23.61 ± 6.13, 23.05 ± 6.99, 22.81 ± 8.08, 23.01 ± 7.64, 22.71 ± 8.75, 22.28 ± 6.8, 20.79 ± 5.75, 20.81 ± 6.11, 23.46 ± 15.92, 24.01 ± 14.57, 21.13 ± 6.6, 20.44 ± 6.17, 21.9 ± 8.01, 23.11 ± 12.18, 25.01 ± 13.6, 25.71 ± 13.72, 23.79 ± 10.09, 19.54 ± 5.2, 19.67 ± 5.55, 21.13 ± 7.7, 19.22 ± 5.67, 18.24 ± 4.4, 18.53 ± 5.08, 20.39 ± 6.64, 20.87 ± 7.3, 21.77 ± 7.73, 22.26 ± 7.35, 19.67 ± 5.88, 18.85 ± 5.55, 19.33 ± 6.04, 19.92 ± 7.05, 19.07 ± 7.11, 18.37 ± 4.98]
+[71.9266, 58.4381, 46.7682, 37.9332, 34.7944, 32.6867, 30.1447, 30.0208, 28.1591, 26.1249, 24.9852, 22.4514, 22.4353, 21.6985, 21.492, 21.1361, 20.5906, 20.1326, 20.059, 19.7646, 19.2593, 18.9277, 18.8111, 18.7789, 18.6184, 18.2809, 18.2809, 18.1113, 17.8315, 17.7899, 17.7162, 17.6397, 17.4782, 17.4014, 17.3991, 17.2262, 17.2007, 17.1216, 17.0791, 17.027, 16.9784, 16.9397, 16.8743, 16.8464, 16.7808, 16.7416, 16.5811, 16.5764, 16.5107, 16.4518, 16.4075]
+Min of the mins 16.4075
+Final score 16.407513860625688
+```
+
+151.49 initial
+xs=[0,   0.25, 0.5,  0.6,  0.68, 0.75, 1.0], 
+ys=[0.5, 0.25, 0.35, 0.25, 0.15, 0.0, 0.0]),      
+```
+swap count: 29159, layer switch swap count: 2138, identity count: 8524, replace count: 32266, crossover count: 177913
+┌ Info: final solution
+│ L1------------------------------------
+│      X     G     D     L     D     J
+│    TAB     A     N   SPC     E  COMM
+│   LCTL   SPC    LS     H     T     W
+│   SCLN     K     U     Q     P    LS
+│     __  CAPS   GUI   ALT  BSPC     F
+│ 
+│ L2------------------------------------
+│    ESC     A     Z   SPC     I    __
+│    TAB     M     R     I   SFT  QUOT
+│   LCTL     R    LS     O     S     C
+│     __     Y    __     B   ENT   DOT
+│     __    __   GUI   ALT    LS     V
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│     __    __     7     8     9    LS
+│     __    __  COLN     0   DOT    __
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 3]), (1, [4, 6]), (2, [5, 5])]
+│ 
+└ corresponding score: 18.81712887467332
+[ Info: min of min score 18.81712887467332 occurs at index 51, which corresponds to iteration 50 (index 1 is the initial solution, so index 2 is when iteration 1 starts)
+min of min solution without unused keys
+L1------------------------------------
+     X     G     D     L     D     J
+   TAB     A     N   SPC     E  COMM
+  LCTL   SPC    LS     H     T     W
+  SCLN     K     U     Q     P    LS
+    __  CAPS   GUI   ALT  BSPC     F
+
+L2------------------------------------
+   ESC     A     Z   SPC     I    __
+   TAB     M     R     I   SFT  QUOT
+  LCTL     R    LS     O     S     C
+    __     Y    __     B   ENT   DOT
+    __    __   GUI   ALT    LS     V
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+    __    __     7     8     9    LS
+    __    __  COLN     0   DOT    __
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 3]), (1, [4, 6]), (2, [5, 5])]
+
+corresponding score: 18.81712887467332
+742.208965 seconds (36.15 G allocations: 2.400 TiB, 75.32% gc time, 7.42% compilation time: <1% of which was recompilation)
+[163.71 ± 63.55, 135.08 ± 44.16, 128.04 ± 43.08, 124.22 ± 42.23, 122.11 ± 43.2, 122.75 ± 46.71, 122.37 ± 50.43, 119.07 ± 45.69, 118.34 ± 47.48, 117.03 ± 47.82, 115.24 ± 47.07, 112.42 ± 46.91, 111.81 ± 46.93, 105.71 ± 48.3, 100.14 ± 44.95, 96.1 ± 45.14, 91.48 ± 42.38, 87.55 ± 39.85, 83.32 ± 37.89, 79.46 ± 35.84, 77.55 ± 36.61, 75.02 ± 35.63, 71.75 ± 33.43, 68.4 ± 28.61, 66.71 ± 28.55, 66.88 ± 28.16, 65.7 ± 27.19, 65.34 ± 25.71, 65.16 ± 26.37, 64.33 ± 25.09, 62.95 ± 24.27, 62.47 ± 25.09, 62.01 ± 24.46, 61.33 ± 24.72, 60.18 ± 24.89, 59.34 ± 25.25, 58.76 ± 26.0, 57.71 ± 24.64, 55.41 ± 26.52, 50.58 ± 27.99, 44.36 ± 22.77, 32.98 ± 12.2, 35.78 ± 15.68, 27.13 ± 7.09, 25.02 ± 5.32, 24.32 ± 5.38, 24.52 ± 5.64, 24.91 ± 7.44, 26.55 ± 9.94, 27.26 ± 9.57, 25.6 ± 8.71]
+[70.9285, 68.3445, 49.8434, 49.8434, 49.8434, 49.8434, 52.7, 48.9776, 48.0636, 45.0101, 44.1524, 43.0344, 42.3997, 38.7054, 38.7328, 37.8361, 36.7658, 36.0125, 37.0067, 33.8671, 33.8671, 33.5891, 31.873, 32.0351, 29.5108, 31.2256, 32.5299, 31.564, 27.2741, 31.7986, 31.6393, 32.374, 29.3268, 30.6054, 30.8483, 29.3266, 29.2005, 28.3748, 27.9175, 26.6377, 25.9099, 23.8698, 22.4435, 21.9247, 20.9853, 20.4394, 20.1692, 19.6575, 18.9734, 18.9734, 18.8171]
+Min of the mins 18.8171
+Final score 18.81712887467332
+```
+
+16.54
+[ Info: Using BestScoresSelector(Float32[0.0, 0.15, 0.4, 0.5, 0.58, 0.65, 1.0], Float32[0.5, 0.25, 0.35, 0.25, 0.15, 0.0, 0.0])
+```
+swap count: 28925, layer switch swap count: 2088, identity count: 11664, replace count: 32467, crossover count: 174854
+┌ Info: final solution
+│ L1------------------------------------
+│      Q     N     O     F   SPC     U
+│    TAB     I     N     T     H     G
+│   LCTL     A   SPC     E    LS  COMM
+│     LS   DOT     V     O     M     Y
+│     __  CAPS   GUI   ALT  BSPC     R
+│ 
+│ L2------------------------------------
+│    ESC     U  QUOT     B     Z    __
+│    TAB   ENT   SFT     W     A    __
+│   LCTL     S     L     D    LS     X
+│      J     P     B  SCLN    __    __
+│     __    __   GUI   ALT    LS     C
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│     LS    __     7     8     9  MINS
+│     __    __  COLN     0   DOT     K
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│   SLSH  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 1]), (2, [5, 5])]
+│ 
+└ corresponding score: 15.737422
+[ Info: min of min score 15.737422 occurs at index 51, which corresponds to iteration 50 (index 1 is the initial solution, so index 2 is when iteration 1 starts)       
+min of min solution without unused keys
+L1------------------------------------
+     Q     N     O     F   SPC     U
+   TAB     I     N     T     H     G
+  LCTL     A   SPC     E    LS  COMM
+    LS   DOT     V     O     M     Y
+    __  CAPS   GUI   ALT  BSPC     R
+
+L2------------------------------------
+   ESC     U  QUOT     B     Z    __
+   TAB   ENT   SFT     W     A    __
+  LCTL     S     L     D    LS     X
+     J     P     B  SCLN    __    __
+    __    __   GUI   ALT    LS     C
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+    LS    __     7     8     9  MINS
+    __    __  COLN     0   DOT     K
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+  SLSH  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 1]), (2, [5, 5])]
+
+corresponding score: 15.737422
+648.512706 seconds (35.97 G allocations: 2.385 TiB, 75.06% gc time, 8.70% compilation time: <1% of which was recompilation)
+[16.54 ± 0.0, 29.1 ± 14.95, 25.0 ± 10.72, 24.76 ± 10.19, 24.94 ± 10.45, 25.05 ± 10.25, 25.05 ± 9.3, 25.71 ± 10.02, 23.64 ± 8.55, 22.68 ± 8.03, 21.46 ± 6.76, 20.56 ± 6.31, 20.3 ± 6.1, 20.08 ± 5.59, 20.47 ± 6.17, 20.3 ± 5.54, 20.74 ± 6.62, 20.84 ± 6.33, 21.07 ± 6.43, 21.46 ± 6.9, 22.02 ± 7.25, 22.93 ± 8.26, 23.11 ± 8.04, 23.54 ± 8.37, 24.31 ± 8.64, 24.47 ± 8.67, 24.32 ± 8.37, 24.2 ± 8.04, 24.5 ± 8.76, 23.97 ± 8.18, 23.67 ± 7.65, 23.55 ± 7.95, 23.73 ± 7.67, 22.83 ± 7.44, 23.06 ± 8.14, 22.24 ± 8.97, 24.14 ± 11.03, 23.05 ± 8.38, 19.46 ± 6.66, 20.23 ± 6.32, 18.56 ± 5.62, 20.95 ± 8.64, 21.58 ± 9.61, 22.54 ± 10.32, 20.82 ± 8.53, 21.58 ± 9.24, 22.56 ± 10.13, 18.38 ± 7.83, 17.62 ± 7.52, 17.52 ± 7.56, 17.63 ± 6.9]
+Float32[16.5421, 16.3938, 16.4192, 16.4536, 16.4567, 16.4251, 16.4251, 16.4661, 16.4786, 16.3979, 16.4749, 16.4706, 16.3803, 16.3464, 16.4209, 16.3543, 16.2448, 16.2894, 16.2577, 16.2577, 16.2158, 16.3136, 16.3144, 16.4446, 16.4172, 16.3511, 16.4092, 16.4092, 16.4143, 16.4723, 16.4073, 16.4233, 16.3831, 16.3153, 16.2252, 16.2122, 16.1758, 16.1102, 16.085, 16.0683, 16.0036, 15.9379, 15.9, 15.8876, 15.8041, 15.8033, 15.7975, 15.7598, 15.7536, 15.7415, 15.7374]
+Min of the mins 15.7374
+Final score 15.737422
+```
+
+
+no crossover 
+```
+An initial random keymap: 
+L1------------------------------------
+     Y     T   SPC     F     O     N
+   TAB     I     N     T     H     G
+  LCTL     A   SPC     E    LS  COMM
+     Q     K     V     O     M    LS
+    __  CAPS   GUI   ALT  BSPC     R
+
+L2------------------------------------
+   ESC  SCLN  QUOT     U     Z    __
+   TAB   ENT   SFT     W    __     J
+  LCTL     S     L     D    LS     X
+    __     P     B   DOT    __    __
+    __    __   GUI   ALT    LS     C
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+    __    __     7     8     9    LS
+    __    __  COLN     0   DOT     I
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+with corresponding score: 16.542095
+100.0%┣██████████████████████████████████████████┫ 5.0k/5.0k [00:01<00:00, 4.8kit/s]
+100.0%┣█████████████████████████████████████████████████┫ 50/50 [07:38<00:00, 9s/it]
+swap count: 102428, layer switch swap count: 7329, identity count: 27428, replace count: 112808, crossover count: 0
+┌ Info: final solution
+│ L1------------------------------------
+│      R     U     O     F   SPC     O
+│    TAB     I     N     T     H     G
+│   LCTL     A   SPC     E    LS  COMM
+│      L   DOT     V     O     M    LS
+│     __  CAPS   GUI   ALT  BSPC     R
+│ 
+│ L2------------------------------------
+│    ESC  MINS     B  SCLN     Z    __
+│    TAB     C   SFT     W     A     Q
+│   LCTL     S     L     D    LS     X
+│   SLSH     P  QUOT     Y    __     J
+│     __    __   GUI   ALT    LS   ENT
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│     __    __     7     8     9    LS
+│     __    __  COLN     0   DOT     K
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+│ 
+└ corresponding score: 15.59525
+[ Info: min of min score 15.59525 occurs at index 51, which corresponds to iteration 50 (index 1 is the initial solution, so index 2 is when iteration 1 starts)        
+min of min solution without unused keys
+L1------------------------------------
+     R     U     O     F   SPC     O
+   TAB     I     N     T     H     G
+  LCTL     A   SPC     E    LS  COMM
+     L   DOT     V     O     M    LS
+    __  CAPS   GUI   ALT  BSPC     R
+
+L2------------------------------------
+   ESC  MINS     B  SCLN     Z    __
+   TAB     C   SFT     W     A     Q
+  LCTL     S     L     D    LS     X
+  SLSH     P  QUOT     Y    __     J
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+    __    __     7     8     9    LS
+    __    __  COLN     0   DOT     K
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+corresponding score: 15.59525
+470.732228 seconds (27.26 G allocations: 1.754 TiB, 74.57% gc time, 8.09% compilation time: <1% of which was recompilation)
+[16.54 ± 0.0, 27.18 ± 12.75, 22.72 ± 8.57, 21.75 ± 7.7, 21.8 ± 8.98, 21.78 ± 9.24, 21.67 ± 8.75, 21.58 ± 8.7, 21.37 ± 8.77, 21.25 ± 8.55, 21.07 ± 8.64, 20.88 ± 7.77, 20.79 ± 8.2, 20.83 ± 8.19, 20.94 ± 8.9, 20.68 ± 7.81, 20.73 ± 8.51, 20.8 ± 8.38, 20.59 ± 8.15, 20.56 ± 8.19, 20.8 ± 8.69, 20.61 ± 8.36, 20.56 ± 8.12, 20.88 ± 9.09, 20.62 ± 8.4, 20.56 ± 8.4, 20.14 ± 7.1, 20.35 ± 7.85, 20.25 ± 7.68, 20.13 ± 7.59, 20.26 ± 7.65, 20.41 ± 8.28, 20.0 ± 7.55, 20.48 ± 8.6, 19.91 ± 7.71, 20.32 ± 8.82, 19.86 ± 8.62, 19.77 ± 8.97, 19.92 ± 9.79, 20.19 ± 10.56, 20.89 ± 13.29, 20.14 ± 11.15, 20.38 ± 11.81, 20.15 ± 10.54, 20.06 ± 10.9, 20.08 ± 11.14, 20.12 ± 10.82, 19.74 ± 9.47, 19.96 ± 10.49, 19.51 ± 8.57, 19.68 ± 8.99]
+Float32[16.5421, 16.3952, 16.3952, 16.4095, 16.3799, 16.3799, 16.351, 16.4008, 16.341, 16.3604, 16.4214, 16.3666, 16.3875, 16.3875, 16.2746, 16.1993, 16.1864, 16.3024, 16.297, 16.297, 16.299, 16.2941, 16.3183, 16.3183, 16.2933, 16.3245, 16.3245, 16.3206, 16.1992, 16.1992, 16.1985, 16.1148, 16.1148, 16.1097, 16.0833, 16.0403, 15.9645, 15.8865, 15.8586, 15.8008, 15.7539, 15.7487, 15.7157, 15.7036, 15.6532, 15.6532, 15.6276, 15.6255, 15.612, 15.5997, 15.5952]
+Min of the mins 15.5952
+Final score 15.59525
+```
+
+no crossover
+```
+[ Info: Using BestScoresSelector(Float32[0.0, 0.15, 0.4, 0.5, 0.6, 0.7, 1.0], Float32[0.5, 0.35, 0.4, 0.25, 0.15, 0.0, 0.0])
+[ Info: Creating checkpoints/2cd8ee00
+100.0%┣██████████████████████████████████████████┫ 5.0k/5.0k [00:02<00:00, 2.2kit/s]
+An initial random keymap: 
+L1------------------------------------
+     C     K     B     R     W     N
+   TAB     V     Z  QUOT     A  SCLN
+  LCTL     Q     Y     O    LS     M
+     D     T     J     E     F    LS
+    __  CAPS   GUI   ALT  BSPC     P
+
+L2------------------------------------
+   ESC  COMM     G     H     U     X
+   TAB     S   SPC     L    __    __
+  LCTL    __    __    __    LS    __
+    __    __    __    __    __    __
+    __    __   GUI   ALT    LS    __
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+    __    __     7     8     9    LS
+    __    __  COLN     0   DOT     I
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+with corresponding score: 148.49113
+100.0%┣██████████████████████████████████████████┫ 5.0k/5.0k [00:01<00:00, 4.3kit/s]
+100.0%┣█████████████████████████████████████████████████┫ 50/50 [05:26<00:00, 7s/it]
+swap count: 102047, layer switch swap count: 7283, identity count: 27781, replace count: 112887, crossover count: 0
+┌ Info: final solution
+│ L1------------------------------------
+│      J     Y     X     W   SPC     I
+│    TAB     F     H     T     A     G
+│   LCTL     N   SPC    LS     E     O
+│      Q     C     U     S     B    LS
+│     __  CAPS   GUI   ALT  BSPC  COMM
+│ 
+│ L2------------------------------------
+│    ESC     V  QUOT    __     K    __
+│    TAB     P   SPC  SCLN     S   DOT
+│   LCTL     R     I    LS     D   SFT
+│      V   ENT     M    __    __    __
+│     __    __   GUI   ALT    LS     L
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│     __    __     7     8     9    LS
+│     __    __  COLN     0   DOT    __
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│   MINS  UNDS    __     Z    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+│ 
+└ corresponding score: 16.607462
+[ Info: min of min score 16.607462 occurs at index 51, which corresponds to iteration 50 (index 1 is the initial solution, so index 2 is when iteration 1 starts)       
+min of min solution without unused keys
+L1------------------------------------
+     J     Y     X     W   SPC     I
+   TAB     F     H     T     A     G
+  LCTL     N   SPC    LS     E     O
+     Q     C     U     S     B    LS
+    __  CAPS   GUI   ALT  BSPC  COMM
+
+L2------------------------------------
+   ESC     V  QUOT    __     K    __
+   TAB     P   SPC  SCLN     S   DOT
+  LCTL     R     I    LS     D   SFT
+     V   ENT     M    __    __    __
+    __    __   GUI   ALT    LS     L
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+    __    __     7     8     9    LS
+    __    __  COLN     0   DOT    __
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+  MINS  UNDS    __     Z    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+corresponding score: 16.607462
+335.780559 seconds (17.93 G allocations: 1.134 TiB, 74.36% gc time, 12.33% compilation time: <1% of which was recompilation)
+[162.43 ± 61.36, 126.38 ± 35.32, 108.58 ± 20.23, 99.89 ± 17.35, 93.73 ± 16.86, 88.83 ± 17.11, 84.1 ± 16.55, 80.17 ± 17.36, 74.16 ± 15.62, 69.36 ± 14.37, 65.89 ± 18.52, 61.81 ± 12.98, 59.16 ± 17.46, 56.27 ± 13.69, 53.71 ± 14.76, 51.44 ± 20.73, 48.77 ± 13.93, 47.12 ± 14.22, 45.24 ± 13.66, 43.21 ± 12.16, 41.99 ± 12.48, 40.96 ± 12.59, 39.72 ± 12.39, 38.97 ± 12.45, 38.0 ± 11.55, 36.7 ± 11.46, 35.18 ± 10.24, 34.28 ± 10.89, 33.45 ± 10.92, 32.59 ± 10.83, 31.65 ± 9.83, 30.51 ± 9.21, 30.02 ± 9.92, 29.47 ± 10.93, 28.77 ± 10.5, 27.86 ± 13.8, 26.63 ± 9.63, 25.63 ± 10.04, 24.69 ± 9.49, 23.96 ± 9.42, 23.53 ± 8.88, 22.9 ± 9.05, 22.21 ± 7.75, 21.56 ± 6.87, 21.34 ± 7.12, 21.16 ± 7.29, 20.64 ± 6.74, 20.56 ± 7.29, 20.71 ± 8.5, 20.3 ± 7.5, 20.17 ± 7.35]
+Float32[74.0397, 65.1238, 65.4509, 63.6672, 55.7966, 53.2425, 47.7128, 50.9563, 47.0355, 45.1341, 41.9713, 37.6002, 36.7351, 33.8744, 33.4586, 33.4586, 32.2873, 30.8518, 31.036, 31.036, 30.6046, 30.1784, 29.1587, 29.0043, 28.4309, 27.6744, 26.9626, 26.8247, 25.4086, 25.4045, 25.334, 24.0401, 24.0391, 23.4787, 23.2415, 21.7158, 21.5765, 20.9518, 20.0902, 19.8665, 19.1125, 18.6809, 18.4044, 18.1951, 17.9126, 17.6815, 17.438, 17.2782, 17.1664, 16.7191, 16.6075]
+Min of the mins 16.6075
+Final score 16.607462
+```
+
+only crossover
+```
+[ Info: Using BestScoresSelector(Float32[0.0, 0.15, 0.4, 0.5, 0.6, 0.7, 1.0], Float32[0.5, 0.35, 0.4, 0.25, 0.15, 0.0, 0.0])
+[ Info: Creating checkpoints/5b657990
+100.0%┣██████████████████████████████████████████┫ 5.0k/5.0k [00:02<00:00, 2.2kit/s]
+An initial random keymap: 
+L1------------------------------------
+     F     B  QUOT     O  COMM     U
+   TAB     L     M     Z     E   SPC
+  LCTL     D     A     Y    LS     T
+     J     R     G  SCLN     K    LS
+    __  CAPS   GUI   ALT  BSPC     S
+
+L2------------------------------------
+   ESC     W     X     Q     P     H
+   TAB     V     N     C    __    __
+  LCTL    __    __    __    LS    __
+    __    __    __    __    __    __
+    __    __   GUI   ALT    LS    __
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+    __    __     7     8     9    LS
+    __    __  COLN     0   DOT     I
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+with corresponding score: 458.99887
+100.0%┣██████████████████████████████████████████┫ 5.0k/5.0k [00:01<00:00, 5.8kit/s]
+100.0%┣█████████████████████████████████████████████████┫ 50/50 [04:34<00:00, 6s/it]
+swap count: 0, layer switch swap count: 0, identity count: 1999, replace count: 0, crossover count: 247997
+┌ Info: final solution
+│ L1------------------------------------
+│      Y     V     K     N     D     Z
+│    TAB     W     E     H     T     J
+│   LCTL     S     A   SPC    LS     F
+│      B     R     O     U     C    LS
+│     __  CAPS   GUI   ALT  BSPC     G
+│ 
+│ L2------------------------------------
+│    ESC     P  SCLN  QUOT     X     Q
+│    TAB     M  COMM     L    __    __
+│   LCTL    __    __    __    LS    __
+│     __    __    __    __    __    __
+│     __    __   GUI   ALT    LS    __
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│     __    __     7     8     9    LS
+│     __    __  COLN     0   DOT     I
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+│ 
+└ corresponding score: 52.160255
+[ Info: min of min score 52.160255 occurs at index 51, which corresponds to iteration 50 (index 1 is the initial solution, so index 2 is when iteration 1 starts)       
+min of min solution without unused keys
+L1------------------------------------
+     Y     V     K     N     D     Z
+   TAB     W     E     H     T     J
+  LCTL     S     A   SPC    LS     F
+     B     R     O     U     C    LS
+    __  CAPS   GUI   ALT  BSPC     G
+
+L2------------------------------------
+   ESC     P  SCLN  QUOT     X     Q
+   TAB     M  COMM     L    __    __
+  LCTL    __    __    __    LS    __
+    __    __    __    __    __    __
+    __    __   GUI   ALT    LS    __
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+    __    __     7     8     9    LS
+    __    __  COLN     0   DOT     I
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+corresponding score: 52.160255
+283.074603 seconds (14.21 G allocations: 983.307 GiB, 71.49% gc time, 16.45% compilation time: <1% of which was recompilation)
+[165.94 ± 66.5, 140.3 ± 48.81, 133.86 ± 46.52, 132.26 ± 47.69, 130.31 ± 45.72, 129.62 ± 45.94, 128.73 ± 44.62, 128.91 ± 45.71, 128.01 ± 45.45, 125.62 ± 43.86, 126.43 ± 46.82, 125.31 ± 44.97, 126.53 ± 45.86, 125.87 ± 45.06, 125.96 ± 45.4, 126.45 ± 44.71, 125.89 ± 45.14, 126.35 ± 46.21, 125.55 ± 45.96, 124.73 ± 44.71, 126.03 ± 46.78, 125.71 ± 45.44, 127.48 ± 46.86, 127.08 ± 46.81, 126.17 ± 44.56, 123.6 ± 42.85, 122.02 ± 42.64, 123.57 ± 45.45, 122.73 ± 44.79, 121.7 ± 44.23, 122.77 ± 44.77, 120.74 ± 44.21, 121.43 ± 43.86, 120.62 ± 44.7, 120.72 ± 44.11, 113.61 ± 40.92, 110.88 ± 43.17, 110.37 ± 41.87, 110.26 ± 43.5, 109.15 ± 41.75, 109.5 ± 42.66, 108.26 ± 41.09, 107.16 ± 41.65, 105.55 ± 39.23, 105.8 ± 39.88, 102.43 ± 39.59, 93.08 ± 39.3, 95.56 ± 38.1, 87.96 ± 34.75, 63.21 ± 21.65, 57.92 ± 13.15]
+Float32[62.8005, 71.0042, 70.0306, 66.2875, 68.8578, 67.4016, 65.4582, 67.4031, 63.9898, 61.8292, 66.8704, 65.111, 63.6402, 63.2632, 64.3817, 64.8464, 66.0376, 65.8313, 65.0199, 64.2093, 64.2525, 64.3125, 63.9801, 63.0478, 62.4132, 64.5002, 62.1556, 65.0801, 66.7899, 61.8661, 62.3054, 58.6354, 63.9183, 63.61, 59.7192, 60.1028, 59.3894, 59.4719, 58.6254, 58.0012, 58.7753, 58.3062, 57.8215, 56.0408, 54.7731, 55.8045, 55.4256, 53.4838, 53.5049, 52.8928, 52.1603]
+Min of the mins 52.1603
+Final score 52.160255
+```
+
+```
+[ Info: Using BestScoresSelector(Float32[0.0, 0.5], Float32[0.25, 0.0])
+[ Info: Creating checkpoints/152d8870
+100.0%┣███████████████████████████████████████████┫ 5.0k/5.0k [00:08<00:00, 597it/s]
+An initial random keymap: 
+L1------------------------------------
+     D     T  SCLN     A     F     V
+   TAB     J     W     R     Y   SPC
+  LCTL     L     C     U    LS     M
+     N     B     S     K     O    LS
+    __  CAPS   GUI   ALT  BSPC     G
+
+L2------------------------------------
+   ESC     Q  QUOT     X     H     P
+   TAB  COMM     Z     E     H  COMM
+  LCTL     E     P  QUOT    LS     X
+     Z     Q  COMM  QUOT     X     Q
+    __    __   GUI   ALT    LS     E
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+     Z    __     7     8     9    LS
+    __    __  COLN     0   DOT     I
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+     H  UNDS     P     H    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+with corresponding score: 150.98509
+100.0%┣██████████████████████████████████████████┫ 5.0k/5.0k [00:01<00:00, 5.0kit/s]
+100.0%┣██████████████████████████████████████████████┫ 100/100 [27:22<00:00, 17s/it]
+swap count: 65658, layer switch swap count: 3696, identity count: 37820, replace count: 70596, crossover count: 322229
+┌ Info: final solution
+│ L1------------------------------------
+│      F     R     W     O   SPC     V
+│    TAB     S     I     A     H     W
+│   LCTL     T   SPC     E    LS     F
+│   QUOT     R     O     U     B    LS
+│     __  CAPS   GUI   ALT  BSPC     D
+│ 
+│ L2------------------------------------
+│    ESC     K     C     Y  MINS    __
+│    TAB   DOT     L     G     V     Z
+│   LCTL  COMM   SFT     N    LS     Q
+│      P  SCLN   ENT     T     J    __
+│     __    __   GUI   ALT    LS     M
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│      X    __     7     8     9    LS
+│     __    __  COLN     0   DOT     P
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+│ 
+└ corresponding score: 16.896265
+[ Info: min of min score 16.86789 occurs at index 3, which corresponds to iteration 2 (index 1 is the initial solution, so index 2 is when iteration 1 starts)
+min of min solution without unused keys
+L1------------------------------------
+     F     R     W     O   SPC     V
+   TAB     S     I     A     H     W
+  LCTL     T   SPC     E    LS     F
+  QUOT     R     O     U     B    LS
+    __  CAPS   GUI   ALT  BSPC     D
+
+L2------------------------------------
+   ESC     Q     P     Y     Z    __
+   TAB     M     L     G     V  MINS
+  LCTL  COMM   SFT     N    LS     J
+  SCLN   DOT   ENT     S  SLSH    __
+    __    __   GUI   ALT    LS     C
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+     X    __     7     8     9    LS
+    __    __  COLN     0   DOT     K
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+corresponding score: 16.86789
+           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Scores⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+           ┌────────────────────────────────────────┐
+   69.8574 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⡔⠉⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ Avg scores
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠚⠈⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ Min scores
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠁⠀⠀⠀⠀⢱⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠃⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⡜⠁⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⡜⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⠀⠀⢰⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⠀⠀⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⢰⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡿⡆⡄⣤⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⢸⣷⠹⠸⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⢠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠈⠟⠀⠀⣇⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⠀⠓⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠒⠉⠙⢲⠀⠀⠀⠀⠀⠙⢷⡰⠱⣀⣀⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+   16.8679 │⣀⣀⣀⣀⣀⣀⣀⣀⡤⠒⠋⠉⠓⠉⠀⠀⠀⠀⠀⠑⠢⠤⠤⣀⣀⣈⣃⣀⣀⣁⣘⣒⣳⣢⣞⣤⡄⠀⠀⠀│
+           └────────────────────────────────────────┘
+           ⠀0⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀110⠀
+           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Generation⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+1659.327524 seconds (61.59 G allocations: 4.061 TiB, 65.17% gc time, 1.26% compilation time: <1% of which was recompilation)
+[55.67 ± 55.25, 27.44 ± 17.62, 22.9 ± 11.31, 22.39 ± 9.02, 22.57 ± 9.12, 23.49 ± 9.92, 24.13 ± 11.03, 25.11 ± 11.8, 26.18 ± 13.34, 27.29 ± 13.71, 28.25 ± 13.88, 30.2 ± 17.48, 32.09 ± 18.45, 33.96 ± 20.38, 35.81 ± 21.57, 37.94 ± 23.04, 39.58 ± 24.84, 41.52 ± 25.6, 43.92 ± 27.34, 45.4 ± 28.23, 47.08 ± 29.89, 48.5 ± 31.57, 50.39 ± 32.57, 50.98 ± 31.95, 52.22 ± 33.49, 53.58 ± 34.6, 55.37 ± 36.74, 55.71 ± 36.03, 56.65 ± 36.17, 57.37 ± 36.59, 59.25 ± 40.16, 59.51 ± 38.58, 60.33 ± 39.43, 60.57 ± 38.88, 61.89 ± 40.42, 62.56 ± 40.89, 63.11 ± 40.18, 64.0 ± 40.25, 64.65 ± 42.36, 65.41 ± 42.65, 66.09 ± 42.72, 66.63 ± 43.96, 65.89 ± 42.44, 66.43 ± 42.9, 67.4 ± 43.64, 68.31 ± 45.59, 69.44 ± 46.46, 69.86 ± 46.08, 69.64 ± 47.03, 68.54 ± 44.06, 61.2 ± 40.68, 51.54 ± 35.72, 30.79 ± 16.49, 38.43 ± 27.24, 32.24 ± 20.58, 32.88 ± 21.51, 27.36 ± 16.24, 32.3 ± 20.71, 25.67 ± 12.27, 29.16 ± 16.02, 32.68 ± 18.93, 32.55 ± 20.04, 28.63 ± 18.7, 36.45 ± 27.16, 36.05 ± 22.98, 28.45 ± 16.86, 23.42 ± 12.78, 24.62 ± 15.73, 22.15 ± 6.89, 23.31 ± 10.41, 20.25 ± 6.82, 19.26 ± 5.5, 21.95 ± 8.26, 22.4 ± 8.93, 24.08 ± 12.78, 21.44 ± 7.49, 21.06 ± 7.35, 21.21 ± 7.51, 20.79 ± 6.98, 21.19 ± 6.27, 20.28 ± 6.09, 21.17 ± 9.4, 20.4 ± 6.09, 21.43 ± 6.98, 18.95 ± 5.56, 19.49 ± 5.44, 18.94 ± 5.34, 18.99 ± 5.23, 19.57 ± 6.37, 18.23 ± 4.87, 19.46 ± 6.13, 19.52 ± 5.78, 18.37 ± 5.98, 18.54 ± 5.2, 20.04 ± 5.23, 18.88 ± 5.21, 17.97 ± 4.56, 18.09 ± 4.98, 17.98 ± 4.52, 18.0 ± 4.44, 17.9 ± 3.97]
+Float32[16.8696, 16.8698, 16.8679, 16.8679, 16.8709, 16.8709, 16.8709, 16.8711, 16.8738, 16.8886, 16.9084, 16.9084, 16.9084, 16.8889, 16.9611, 17.1429, 17.1429, 17.1598, 17.1598, 17.3198, 17.3198, 17.3207, 18.0707, 18.2333, 18.6661, 18.9814, 18.7506, 18.7506, 19.8296, 19.677, 19.6168, 19.6168, 19.6924, 19.4845, 19.4845, 19.6704, 19.6719, 19.6719, 21.0974, 21.2953, 22.3003, 22.6021, 22.7176, 23.3129, 23.3042, 23.1313, 23.1726, 24.0449, 22.7037, 22.7097, 22.394, 20.9887, 20.2027, 19.371, 19.1067, 18.7263, 18.631, 18.3758, 18.302, 18.2007, 18.0372, 17.9637, 17.7875, 17.7394, 17.7061, 17.5872, 17.5083, 17.4088, 17.3311, 17.3182, 17.3129, 17.1606, 17.1524, 17.1474, 17.1427, 17.13, 17.1235, 17.0898, 17.0898, 17.045, 17.0403, 16.9914, 16.9722, 16.9557, 16.934, 16.9309, 16.9192, 16.9149, 16.9142, 16.9107, 16.9048, 16.9036, 16.9036, 16.8999, 16.8999, 16.8999, 16.8967, 16.8967, 16.8963, 16.8963, 16.8963]
+Min of the mins 16.8679
+Final score 16.896265
+```
+
+
+
+using v1 and v2 as bases, 2 mutations in the beginning, Float32
+```
+[ Info: Using BestScoresSelector(Float32[0.0, 0.2, 0.4, 0.6], Float32[0.2, 0.1, 0.05, 0.0])
+[ Info: Creating checkpoints/4ea36912
+100.0%┣█████████████████████████████████████████████┫ 5.0k/5.0k [00:07<00:00, 687it/s]
+An initial random keymap: 
+L1------------------------------------
+     O     N   SPC     T     U     Y
+   TAB     I     N     T     H     G
+  LCTL     A   SPC     E    LS     R
+     Q     M     L     O     F    LS
+    __  CAPS   GUI   ALT  BSPC     S
+
+L2------------------------------------
+   ESC     D     K  SCLN     A   GRV
+   TAB     C   SFT     W     V     K
+  LCTL  COMM   ENT     D    LS     Z
+  MINS   DOT  QUOT     L     J     B
+    __    __   GUI   ALT    LS     P
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  MINS    __     7     8     9    LS
+    __    __  COLN     0   DOT     X
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+with corresponding score: 20.381783
+100.0%┣████████████████████████████████████████████┫ 5.0k/5.0k [00:01<00:00, 4.7kit/s]
+100.0%┣████████████████████████████████████████████████┫ 100/100 [16:50<00:00, 10s/it]
+swap count: 84026, layer switch swap count: 4898, identity count (mutations): 19900, identity count (crossovers): 41563, replace count: 91271, crossover count: 258336      
+┌ Info: final solution
+│ L1------------------------------------
+│   MINS     B     U     G   SPC     A
+│    TAB     I     N     T     H     D
+│   LCTL     A   SPC     E    LS  COMM
+│      T   DOT     R     F     M    LS
+│     __  CAPS   GUI   ALT  BSPC     O
+│ 
+│ L2------------------------------------
+│    ESC     Q     B  QUOT     J   GRV
+│    TAB     V   SFT     W     P    __
+│   LCTL     R     L     S    LS     X
+│      D  SCLN     C     Y  SLSH    __
+│     __    __   GUI   ALT    LS   ENT
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│      Z    __     7     8     9    LS
+│     __    __  COLN     0   DOT     K
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+│ 
+└ corresponding score: 15.327664
+[ Info: min of min score 15.327664 occurs at index 101, which corresponds to iteration 100 (index 1 is the initial solution, so index 2 is when iteration 1 starts)
+min of min solution without unused keys
+L1------------------------------------
+  MINS     B     U     G   SPC     A
+   TAB     I     N     T     H     D
+  LCTL     A   SPC     E    LS  COMM
+     T   DOT     R     F     M    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     Q     B  QUOT     J   GRV
+   TAB     V   SFT     W     P    __
+  LCTL     R     L     S    LS     X
+     D  SCLN     C     Y  SLSH    __
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+     Z    __     7     8     9    LS
+    __    __  COLN     0   DOT     K
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+corresponding score: 15.327664
+           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Scores⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+           ┌────────────────────────────────────────┐
+   38.4176 │⠀⠀⠀⠀⠀⠀⠀⡎⠺⠛⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ Avg scores
+           │⠀⠀⠀⠀⠀⠀⡰⠁⠀⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ Min scores
+           │⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠈⢢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⠀⠀⠀⠀⠀⡸⠀⠀⠀⠀⠀⠈⢣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢰⠀⠀⠀⢀⠇⠀⠀⠀⠀⠀⠀⠀⠈⢺⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⢰⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⣇⣠⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢇⠀⠀⠀⠀⠀⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⣤⠛⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡄⠀⢠⡸⠁⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡖⠁⠀⠀⠀⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠈⢸⠀⠀⢠⣼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣆⢠⠃⠙⣤⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⣀⣀⣀⠞⠉⠉⠚⠉⠓⠒⠢⢄⡠⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠋⠀⠀⠁⠑⠜⢇⡎⢢⣀⣀⡀⠀⠀⠀│
+   15.3277 │⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠓⠒⠒⠤⠤⠤⠤⠤⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀│
+           └────────────────────────────────────────┘
+           ⠀0⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀110⠀
+           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Generation⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+1025.844019 seconds (52.25 G allocations: 3.406 TiB, 75.95% gc time, 4.88% compilation time: <1% of which was recompilation)
+[20.33 ± 0.33, 31.64 ± 13.73, 26.4 ± 11.33, 26.47 ± 12.4, 26.3 ± 12.68, 26.33 ± 12.82, 26.51 ± 12.41, 26.09 ± 11.84, 26.64 ± 11.79, 26.93 ± 12.24, 27.88 ± 13.28, 28.69 ± 13.49, 30.0 ± 14.95, 31.21 ± 16.05, 32.36 ± 17.25, 33.4 ± 18.86, 34.89 ± 20.37, 35.82 ± 21.45, 36.32 ± 21.16, 37.42 ± 22.6, 38.1 ± 23.75, 37.94 ± 23.64, 37.85 ± 24.18, 37.3 ± 23.02, 38.36 ± 25.77, 37.77 ± 23.71, 38.42 ± 26.45, 37.01 ± 23.93, 36.0 ± 23.2, 35.32 ± 22.75, 34.62 ± 23.46, 34.37 ± 22.27, 33.42 ± 20.6, 33.33 ± 20.0, 32.42 ± 18.91, 32.41 ± 19.28, 32.63 ± 19.45, 31.88 ± 19.38, 31.77 ± 18.18, 32.0 ± 19.5, 31.29 ± 18.92, 28.28 ± 16.26, 25.52 ± 14.77, 23.41 ± 10.61, 23.55 ± 11.04, 22.07 ± 9.06, 21.38 ± 8.2, 22.35 ± 8.81, 22.46 ± 8.84, 22.86 ± 9.92, 23.07 ± 9.89, 23.61 ± 11.11, 23.37 ± 10.07, 23.42 ± 11.4, 24.2 ± 11.75, 25.2 ± 13.68, 24.56 ± 12.9, 25.34 ± 13.86, 26.59 ± 15.28, 28.79 ± 21.87, 22.14 ± 12.93, 21.46 ± 9.2, 22.9 ± 12.24, 22.34 ± 10.51, 21.04 ± 9.65, 19.33 ± 6.73, 18.76 ± 5.62, 18.45 ± 6.19, 18.12 ± 6.87, 18.02 ± 5.67, 18.49 ± 5.72, 19.88 ± 7.16, 19.97 ± 7.24, 20.65 ± 7.2, 19.65 ± 6.87, 21.28 ± 8.08, 19.16 ± 6.63, 18.25 ± 6.07, 19.15 ± 6.84, 18.27 ± 6.1, 18.34 ± 6.38, 17.92 ± 6.32, 17.58 ± 6.09, 17.99 ± 6.42, 18.65 ± 6.34, 17.46 ± 5.84, 17.24 ± 6.11, 17.13 ± 5.61, 17.84 ± 6.1, 18.33 ± 5.98, 17.83 ± 5.87, 17.92 ± 6.37, 17.09 ± 5.85, 17.13 ± 5.95, 17.12 ± 5.76, 17.12 ± 5.93, 16.98 ± 5.73, 17.05 ± 5.92, 17.04 ± 5.77, 17.05 ± 5.68, 17.06 ± 5.75]
+Float32[16.8686, 16.8686, 16.8686, 17.047, 17.0617, 17.0823, 17.0823, 17.0823, 17.7261, 17.7362, 18.139, 18.203, 18.1201, 18.2047, 18.2339, 18.1564, 17.9814, 17.9632, 18.0351, 18.1586, 18.1644, 18.1644, 17.6865, 17.7353, 17.8564, 17.8564, 17.6692, 17.6865, 17.6083, 17.6067, 17.3063, 17.1573, 17.1573, 17.1573, 17.2558, 17.083, 16.9176, 16.9176, 16.9009, 16.7587, 16.7302, 16.7329, 16.6482, 16.6392, 16.4101, 16.4005, 16.3306, 16.2933, 16.2131, 16.15, 16.15, 16.1338, 16.0071, 16.0071, 15.9988, 15.9827, 15.9827, 15.9668, 15.9535, 15.9024, 15.8423, 15.8423, 15.7897, 15.7741, 15.7694, 15.7168, 15.7107, 15.6903, 15.667, 15.6628, 15.6563, 15.6443, 15.6319, 15.6113, 15.6095, 15.5979, 15.5929, 15.592, 15.5902, 15.5869, 15.5867, 15.5784, 15.4205, 15.4205, 15.4018, 15.4002, 15.39, 15.3885, 15.3435, 15.3435, 15.3338, 15.3338, 15.3299, 15.3299, 15.3285, 15.3285, 15.3285, 15.3278, 15.3278, 15.3277, 15.3277]
+Min of the mins 15.3277
+Final score 15.327664
+
+```
+
+```
+[ Info: Using BestScoresSelector([0.0, 0.17, 0.34, 0.5], [0.15, 0.075, 0.0375, 0.0])
+[ Info: Creating checkpoints/b4e29d10
+100.0%┣█████████████████████████████████████████████┫ 5.0k/5.0k [00:06<00:00, 837it/s]
+An initial random keymap: 
+L1------------------------------------
+  MINS     B     U     G   SPC     A
+   TAB     I     N     T     H     D
+  LCTL     A   SPC     E    LS  COMM
+     T   DOT     R     F     M    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     Q     B  QUOT     J   GRV
+   TAB     V   SFT     W     P  MINS
+  LCTL     R     L     S    LS     X
+     D  SCLN     C     Y  SLSH   DOT
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+     Z    __     7     8     9    LS
+    __    __  COLN     0   DOT     K
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+with corresponding score: 15.32766222763803
+100.0%┣████████████████████████████████████████████┫ 5.0k/5.0k [00:01<00:00, 4.0kit/s]
+100.0%┣████████████████████████████████████████████████┫ 100/100 [16:56<00:00, 10s/it]
+swap count: 80548, layer switch swap count: 5980, identity count (mutations): 24012, identity count (crossovers): 61359, replace count: 89459, crossover count: 238641      
+┌ Info: final solution
+│ L1------------------------------------
+│   MINS     B     U     G   SPC     A
+│    TAB     I     N     T     H     D
+│   LCTL     A   SPC     E    LS  COMM
+│      T   DOT     R     F     M    LS
+│     __  CAPS   GUI   ALT  BSPC     O
+│ 
+│ L2------------------------------------
+│    ESC     Q     B  QUOT     J   GRV
+│    TAB     V   SFT     W     P    __
+│   LCTL     R     L     S    LS     X
+│      D  SCLN     C     Y  SLSH    __
+│     __    __   GUI   ALT    LS   ENT
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│      Z    __     7     8     9    LS
+│     __    __  COLN     0   DOT     K
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+│ 
+└ corresponding score: 15.32766222763803
+[ Info: min of min score 15.32766222763803 occurs at index 1, which corresponds to iteration 0 (index 1 is the initial solution, so index 2 is when iteration 1 starts)     
+min of min solution without unused keys
+L1------------------------------------
+  MINS     B     U     G   SPC   DOT
+   TAB     I     N     T     H     D
+  LCTL     A   SPC     E    LS  COMM
+     T   DOT     R     F     M    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     Q     B  QUOT     J   GRV
+   TAB     V   SFT     W     P    __
+  LCTL     R     L     S    LS     X
+     D  SCLN     C     Y  SLSH    __
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+     Z    __     7     8     9    LS
+    __    __  COLN     0   DOT     K
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+corresponding score: 15.401200889805295
+           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Scores⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+           ┌────────────────────────────────────────┐
+   30.5637 │⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ Avg scores
+           │⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ Min scores
+           │⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⠀⢰⢱⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⡇⠀⠀⡤⠎⠈⢇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⡇⢀⡔⠁⠀⠀⠸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⢱⠎⠀⠀⠀⠀⠀⠸⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡎⠀⠀⠀⠀⠀⠀⠀⠀⢳⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠒⠒⠊⠒⠒⠑⠒⠒⠑⠒⠒⠒⠒⠒⠓⠒⠒⠒⠒⠒⠒⠒⠂⠀⠀⠀│
+   15.3277 │⣇⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀│
+           └────────────────────────────────────────┘
+           ⠀0⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀110⠀
+           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Generation⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+1030.032814 seconds (50.60 G allocations: 3.308 TiB, 77.09% gc time, 5.25% compilation time: <1% of which was recompilation)
+[15.33 ± 0.0, 30.56 ± 16.52, 22.48 ± 10.01, 22.29 ± 10.26, 21.66 ± 9.23, 21.79 ± 9.05, 22.33 ± 9.96, 22.54 ± 9.93, 22.53 ± 10.49, 23.19 ± 11.79, 23.31 ± 11.18, 23.76 ± 11.85, 23.79 ± 12.17, 23.93 ± 13.15, 24.06 ± 13.17, 24.81 ± 13.43, 25.51 ± 14.66, 25.19 ± 14.1, 24.4 ± 12.71, 24.49 ± 13.63, 23.2 ± 11.31, 22.67 ± 10.15, 22.45 ± 10.03, 21.88 ± 9.22, 21.75 ± 8.86, 21.13 ± 7.93, 21.0 ± 8.18, 19.76 ± 7.55, 19.0 ± 6.82, 19.42 ± 6.97, 19.1 ± 6.91, 17.98 ± 6.38, 17.85 ± 6.17, 17.55 ± 5.87, 17.52 ± 5.89, 17.34 ± 5.59, 17.26 ± 5.79, 17.17 ± 6.2, 17.1 ± 5.91, 17.02 ± 5.57, 17.08 ± 5.95, 16.94 ± 5.48, 16.96 ± 5.49, 16.93 ± 5.5, 17.02 ± 5.72, 17.23 ± 6.3, 17.04 ± 5.72, 16.93 ± 5.37, 16.94 ± 5.73, 16.99 ± 5.52, 16.99 ± 5.59, 17.07 ± 5.9, 17.17 ± 6.01, 16.94 ± 5.41, 16.98 ± 5.64, 17.02 ± 5.68, 17.05 ± 5.91, 16.97 ± 5.72, 16.96 ± 5.51, 16.89 ± 5.29, 17.11 ± 5.94, 16.94 ± 5.58, 17.09 ± 5.97, 16.95 ± 5.58, 16.86 ± 5.22, 17.04 ± 5.85, 17.01 ± 5.85, 17.02 ± 5.73, 17.0 ± 5.7, 16.99 ± 5.75, 17.08 ± 5.96, 16.9 ± 5.3, 17.07 ± 5.78, 17.0 ± 5.62, 16.95 ± 5.64, 16.97 ± 5.73, 17.0 ± 5.62, 17.13 ± 6.14, 16.95 ± 5.57, 16.98 ± 5.66, 17.07 ± 5.84, 17.02 ± 5.69, 17.08 ± 5.82, 16.88 ± 5.38, 16.95 ± 5.59, 17.02 ± 5.87, 17.05 ± 5.84, 17.03 ± 5.81, 17.04 ± 5.73, 17.1 ± 6.07, 17.05 ± 5.78, 16.96 ± 5.62, 17.08 ± 5.89, 17.02 ± 5.7, 16.89 ± 5.28, 16.91 ± 5.41, 16.99 ± 5.79, 17.05 ± 5.79, 17.01 ± 5.72, 16.9 ± 5.38, 17.05 ± 5.87]
+[15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3287, 15.3287, 15.3287, 15.3289, 15.3289, 15.3289, 15.3289, 15.3289, 15.3289, 15.3287, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277, 15.3277]
+Min of the mins 15.3277
+Final score 15.32766222763803
+```
+
+remove space from bigrams
+```
+[ Info: Using BestScoresSelector(Float32[0.0, 0.17, 0.34, 0.5], Float32[0.15, 0.075, 0.0375, 0.0])
+[ Info: Creating checkpoints/8ad432b2
+100.0%┣█████████████████████████████████████████████┫ 5.0k/5.0k [00:06<00:00, 775it/s]
+An initial random keymap: 
+L1------------------------------------
+  MINS     B     U     G   SPC     A
+   TAB     I     N     T     H     D
+  LCTL     A   SPC     E    LS  COMM
+     T   DOT     R     F     M    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     Q     B  QUOT     J   GRV
+   TAB     V   SFT     W     P     W
+  LCTL     R     L     S    LS     X
+     D  SCLN     C     Y  SLSH     N
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+     Z    __     7     8     9    LS
+    __    __  COLN     0   DOT     K
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+with corresponding score: 15.9961605
+100.0%┣████████████████████████████████████████████┫ 5.0k/5.0k [00:01<00:00, 4.3kit/s]
+100.0%┣████████████████████████████████████████████████┫ 100/100 [20:24<00:00, 12s/it]
+swap count: 80136, layer switch swap count: 6049, identity count (mutations): 24229, identity count (crossovers): 163698, replace count: 89682, crossover count: 136198     
+┌ Info: final solution
+│ L1------------------------------------
+│   MINS     B     U     G   SPC  SCLN
+│    TAB     I     N     T     H     D
+│   LCTL     A   SPC     E    LS  COMM
+│      T   DOT     R     F     M    LS
+│     __  CAPS   GUI   ALT  BSPC     O
+│ 
+│ L2------------------------------------
+│    ESC     K     P     Y     Q   GRV
+│    TAB     V   SFT     W     A     Z
+│   LCTL     R     L     S    LS     J
+│      D     B     C  QUOT     X    __
+│     __    __   GUI   ALT    LS   ENT
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│   UNDS    __     7     8     9    LS
+│     __    __  COLN     0   DOT     I
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+│ 
+└ corresponding score: 15.94094
+[ Info: min of min score 15.94094 occurs at index 58, which corresponds to iteration 57 (index 1 is the initial solution, so index 2 is when iteration 1 starts)
+min of min solution without unused keys
+L1------------------------------------
+  MINS     B     U     G   SPC  SCLN
+   TAB     I     N     T     H     D
+  LCTL     A   SPC     E    LS  COMM
+     T   DOT     R     F     M    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     K     P     Y     Q   GRV
+   TAB     V   SFT     W     A     Z
+  LCTL     R     L     S    LS     J
+     D     B     C  QUOT     X    __
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT     I
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+corresponding score: 15.94094
+           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Scores⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+           ┌────────────────────────────────────────┐
+   31.5409 │⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ Avg scores
+           │⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ Min scores
+           │⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⠀⢀⣴⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⡄⠀⠀⠀⡜⠸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⡇⠀⠀⡠⠇⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⡇⢀⠔⠃⠀⠀⠘⠗⢄⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠈⠉⠀⠀⠀⠀⠀⠀⠀⠛⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡠⡀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⠀⠀⣠⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀│
+           │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠋⠉⠉⠊⠉⠉⠉⠉⠉⠑⠚⠑⠉⠉⠙⠉⠉⠉⠉⠑⠁⠀⠀⠀│
+   15.9409 │⣇⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀│
+           └────────────────────────────────────────┘
+           ⠀0⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀110⠀
+           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Generation⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+1239.683687 seconds (60.52 G allocations: 3.932 TiB, 76.54% gc time, 4.26% compilation time: <1% of which was recompilation)
+[16.0 ± 0.0, 31.54 ± 17.1, 24.09 ± 10.8, 23.25 ± 9.84, 23.0 ± 9.65, 23.14 ± 10.06, 23.09 ± 10.3, 23.31 ± 10.34, 23.54 ± 10.28, 23.81 ± 10.57, 23.75 ± 10.28, 24.44 ± 12.13, 24.68 ± 11.92, 24.65 ± 11.96, 25.62 ± 13.0, 26.41 ± 13.81, 26.5 ± 14.4, 27.04 ± 14.9, 25.96 ± 13.54, 24.67 ± 11.63, 24.03 ± 10.48, 23.57 ± 9.66, 24.08 ± 11.79, 23.86 ± 10.77, 23.63 ± 10.62, 23.69 ± 10.16, 23.24 ± 10.09, 22.88 ± 8.65, 22.95 ± 8.95, 23.32 ± 9.58, 22.79 ± 8.69, 22.52 ± 8.52, 22.13 ± 8.0, 22.09 ± 7.91, 21.76 ± 7.58, 21.93 ± 8.25, 21.55 ± 8.13, 19.56 ± 7.3, 19.09 ± 6.65, 19.33 ± 7.02, 19.54 ± 7.45, 18.7 ± 6.72, 18.68 ± 6.28, 17.88 ± 6.2, 17.76 ± 5.61, 17.79 ± 5.87, 17.78 ± 6.01, 17.82 ± 5.92, 17.77 ± 5.58, 17.79 ± 5.66, 18.3 ± 5.95, 17.94 ± 6.04, 17.76 ± 5.93, 17.88 ± 6.06, 19.07 ± 6.27, 17.85 ± 6.1, 17.84 ± 6.09, 17.8 ± 5.86, 17.97 ± 6.35, 17.85 ± 5.93, 17.98 ± 6.38, 17.86 ± 5.8, 17.94 ± 6.23, 17.82 ± 6.02, 17.77 ± 5.87, 18.01 ± 6.55, 17.9 ± 6.19, 17.94 ± 6.19, 17.9 ± 6.09, 17.81 ± 5.89, 17.72 ± 5.82, 17.71 ± 5.54, 17.83 ± 6.0, 17.74 ± 5.88, 17.87 ± 6.03, 17.71 ± 5.52, 17.97 ± 6.2, 17.9 ± 6.19, 17.8 ± 5.93, 17.84 ± 5.98, 17.93 ± 6.23, 17.9 ± 6.22, 17.78 ± 5.84, 17.75 ± 5.74, 17.77 ± 5.91, 17.84 ± 6.05, 17.89 ± 6.1, 17.79 ± 5.98, 17.87 ± 6.16, 17.8 ± 6.1, 17.98 ± 6.33, 17.77 ± 5.84, 18.0 ± 6.44, 17.83 ± 6.0, 17.78 ± 6.0, 18.07 ± 6.69, 17.88 ± 6.06, 17.74 ± 5.84, 17.9 ± 5.97, 17.77 ± 5.75, 17.78 ± 5.97]
+Float32[15.994, 15.994, 15.994, 15.994, 15.9938, 15.9938, 15.9938, 15.9938, 15.9938, 15.9938, 15.9938, 15.9842, 15.9941, 15.9941, 15.9941, 15.9963, 15.9983, 15.9983, 16.0002, 16.024, 16.024, 16.0235, 16.024, 16.024, 15.9954, 15.9954, 15.9954, 15.9954, 15.9909, 15.9909, 15.9854, 15.9854, 15.9817, 15.9849, 15.9817, 15.9817, 15.9804, 15.971, 15.9686, 15.9686, 15.9686, 15.9686, 15.9664, 15.9661, 15.9604, 15.953, 15.9527, 15.953, 15.9528, 15.9466, 15.9424, 15.9424, 15.9411, 15.9411, 15.9411, 15.9411, 15.9411, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409, 15.9409]
+Min of the mins 15.9409
+Final score 15.94094
+
+```
+
+blank template start
+```
+[ Info: Using BestScoresSelector(Float32[0.0, 0.17, 0.34, 0.5], Float32[0.1, 0.05, 0.025, 0.0])
+[ Info: Creating checkpoints/d23729c0
+100.0%┣█████████████████████████████████████████████┫ 5.0k/5.0k [00:06<00:00, 819it/s]
+An initial random keymap: 
+L1------------------------------------
+     C     P     T     E     I     D
+   TAB     K     U  SCLN     H     Z
+  LCTL     M     L  COMM    LS     V
+     B     J     X     W   SPC    LS
+    __  CAPS   GUI   ALT  BSPC     A
+
+L2------------------------------------
+   ESC  QUOT     Y     R     N   GRV
+   TAB     G     F     O     Q     S
+  LCTL     Q     N  QUOT    LS     G
+     F     O     Y     S     R     Q
+    __    __   GUI   ALT    LS     N
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  QUOT    __     7     8     9    LS
+    __    __  COLN     0   DOT     Y
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+with corresponding score: 88.96271
+100.0%┣████████████████████████████████████████████┫ 5.0k/5.0k [00:01<00:00, 4.5kit/s]
+100.0%┣████████████████████████████████████████████████┫ 100/100 [15:43<00:00, 10s/it]
+swap count: 84033, layer switch swap count: 5048, identity count (mutations): 19833, identity count (crossovers): 73034, replace count: 91185, crossover count: 226866      
+┌ Info: final solution
+│ L1------------------------------------
+│   COMM     D     U   SPC     C     Y
+│    TAB     W     H     I     T     V
+│   LCTL     E   SPC     A    LS  COMM
+│     LS     D     N     F     M  SCLN
+│     __  CAPS   GUI   ALT  BSPC     O
+│ 
+│ L2------------------------------------
+│    ESC  MINS  QUOT     B     X   GRV
+│    TAB   SFT     L     S     K    __
+│   LCTL     G     R     N    LS  SLSH
+│      J   DOT     E     P  UNDS    __
+│     __    __   GUI   ALT    LS   ENT
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│     LS    __     7     8     9     Z
+│     __    __  COLN     0   DOT     Q
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 1]), (2, [5, 5])]
+│ 
+└ corresponding score: 17.222332
+[ Info: min of min score 17.222332 occurs at index 90, which corresponds to iteration 89 (index 1 is the initial solution, so index 2 is when iteration 1 starts)
+min of min solution without unused keys
+L1------------------------------------
+  COMM     D     U   SPC     C     Y
+   TAB     W     H     I     T     V
+  LCTL     E   SPC     A    LS  COMM
+    LS     D     N     F     M  SCLN
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC  MINS  QUOT     B     X   GRV
+   TAB   SFT     L     S     K    __
+  LCTL     G     R     N    LS  SLSH
+     J   DOT     E     P  UNDS    __
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+    LS    __     7     8     9     Z
+    __    __  COLN     0   DOT     Q
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 1]), (2, [5, 5])]
+
+corresponding score: 17.222332
+           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Scores⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+           ┌────────────────────────────────────────┐
+    119.96 │⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ Avg scores
+           │⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│ Min scores
+           │⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⠀⠀⢇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⡀⠀⠘⠢⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢇⠀⠀⠀⠱⡀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⢸⠀⠀⠀⠀⠈⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⠀⡇⠀⠀⠀⠀⠈⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⠀⠑⠦⡀⠀⠀⠀⠑⠊⠒⠚⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+           │⠀⠀⠀⠈⠖⣄⣀⠀⠀⠀⠀⠙⡄⣀⣀⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+   17.2223 │⠀⠀⠀⠀⠀⠀⠀⠉⠒⠒⠒⠤⠬⠥⠤⠬⣓⣒⣒⣒⣊⣓⣒⣔⣢⣤⣢⣠⣴⣀⣄⣀⣀⣀⣀⣀⡀⠀⠀⠀│
+           └────────────────────────────────────────┘
+           ⠀0⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀110⠀
+           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Generation⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+957.430420 seconds (48.66 G allocations: 3.171 TiB, 76.36% gc time, 5.05% compilation time: <1% of which was recompilation)
+[119.96 ± 38.43, 100.48 ± 45.11, 89.18 ± 31.79, 79.9 ± 30.31, 72.39 ± 30.26, 69.11 ± 32.27, 65.8 ± 32.06, 63.03 ± 30.21, 62.79 ± 33.25, 61.74 ± 33.61, 60.47 ± 34.63, 58.17 ± 32.32, 55.77 ± 32.14, 52.93 ± 29.33, 52.01 ± 28.78, 51.23 ± 29.25, 51.89 ± 30.79, 50.69 ± 29.67, 45.23 ± 28.15, 36.27 ± 17.98, 35.98 ± 16.52, 35.38 ± 18.24, 34.67 ± 16.97, 36.86 ± 20.63, 35.78 ± 19.86, 35.45 ± 21.03, 34.93 ± 21.75, 35.09 ± 21.11, 35.87 ± 20.95, 36.53 ± 23.27, 30.86 ± 19.42, 31.26 ± 23.67, 26.35 ± 12.92, 24.86 ± 9.17, 23.97 ± 8.15, 23.66 ± 8.46, 24.26 ± 9.38, 24.85 ± 9.94, 25.49 ± 10.91, 24.95 ± 10.58, 25.76 ± 11.26, 25.94 ± 13.46, 24.39 ± 9.83, 21.83 ± 6.66, 23.75 ± 9.47, 21.59 ± 6.98, 21.92 ± 6.28, 20.68 ± 6.51, 22.01 ± 7.06, 21.24 ± 6.53, 22.02 ± 6.67, 21.56 ± 8.32, 21.16 ± 6.57, 21.3 ± 6.69, 21.12 ± 6.28, 21.85 ± 8.59, 22.53 ± 7.64, 22.57 ± 7.94, 21.05 ± 6.93, 21.58 ± 7.59, 21.14 ± 7.12, 21.16 ± 6.45, 21.02 ± 6.85, 20.57 ± 6.29, 21.32 ± 6.6, 20.77 ± 6.43, 20.92 ± 5.9, 20.37 ± 6.01, 19.96 ± 5.77, 20.05 ± 6.2, 19.67 ± 5.13, 20.69 ± 6.22, 19.42 ± 5.43, 19.61 ± 5.53, 18.73 ± 4.75, 18.95 ± 5.04, 18.84 ± 5.29, 19.33 ± 5.92, 21.41 ± 8.23, 18.62 ± 4.89, 18.56 ± 4.52, 18.53 ± 4.47, 19.05 ± 5.13, 18.67 ± 4.44, 18.62 ± 4.64, 18.47 ± 4.53, 18.53 ± 4.22, 18.48 ± 4.69, 18.83 ± 5.57, 18.76 ± 5.44, 18.75 ± 5.07, 18.72 ± 4.81, 18.74 ± 5.28, 18.74 ± 5.27, 18.63 ± 4.87, 18.8 ± 5.5, 18.63 ± 4.63, 18.64 ± 4.83, 18.8 ± 5.48, 18.8 ± 5.26, 18.77 ± 5.53]
+Float32[59.8393, 45.4798, 44.2163, 36.5181, 35.882, 35.6735, 33.5598, 32.7286, 31.6754, 29.9274, 28.2661, 27.1273, 28.3536, 26.3742, 25.5168, 25.522, 25.3269, 24.7524, 24.3627, 23.9079, 23.1514, 22.3303, 22.3592, 22.3592, 21.373, 21.373, 21.2941, 21.2005, 20.7667, 20.7179, 20.3472, 20.2545, 20.007, 20.0051, 20.0051, 19.9587, 19.7896, 19.6981, 19.4059, 19.1058, 19.1058, 18.953, 18.9418, 18.8601, 18.74, 18.4099, 18.4099, 18.34, 18.2448, 18.1076, 18.043, 17.9964, 17.8924, 17.8788, 17.8486, 17.7755, 17.7645, 17.5194, 17.5084, 17.4978, 17.4406, 17.43, 17.3873, 17.3665, 17.2989, 17.2969, 17.2963, 17.2829, 17.2619, 17.2597, 17.2597, 17.2526, 17.2516, 17.2483, 17.2459, 17.2337, 17.2337, 17.2337, 17.228, 17.228, 17.2245, 17.2245, 17.224, 17.2232, 17.223, 17.2226, 17.2224, 17.2224, 17.2224, 17.2223, 17.2223, 17.2223, 17.2223, 17.2223, 17.2223, 17.2223, 17.2223, 17.2223, 17.2223, 17.2223, 17.2223]
+Min of the mins 17.2223
+Final score 17.222332
+```
+
+Different rng seed run of blank template start, early stopping on
+```
+
+```
+
+multiple "good" initial versions (no blank initial versions)
+```
+
+```
+

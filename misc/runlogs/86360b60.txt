@@ -1,0 +1,2 @@
+[ Info: Loading ./test/data/2701-0.txt1342-0.txt100-100-50-50ngramlengthmaxgrams4test.jld2
+[ Info: Ngramconfig("test", 4, [-1, 100, 100, 50, 50], Set(Keycode[_CIRC, _HASH, _EXLM, _QUES, _TILD, _DQUO, _PASS, _PERC, _DLR, _AMPR, _AT, _COLN, _ASTR]), :ngramlength, Set{Keycode}())

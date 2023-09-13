@@ -1,0 +1,321 @@
+[ Info: Bigrams containing space are skipped
+[ Info: Manually removing runs of spaces. Also not including 4+grams with any space.
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+[ Info: Setting _BSPS frequency to the average of _SPC and _E.
+[ Info: Saving ./test/data/2701-0.txt1342-0.txt100-100-50-50scaletruehighgramlowweight.jld2
+[ Info: generating 3 layer version
+L1------------------------------------
+    __    __    __    __    __    __
+   TAB    __    __    __    __    __
+  LCTL     S    __    LS    __    __
+    __    __    __    __    __    LS
+    __  CAPS   GUI   ALT  BSPC   SPC
+
+L2------------------------------------
+   ESC    __    __    __    __   GRV
+   TAB    __    __    __    __    __
+  LCTL    __    __    LS    __    __
+    __    __    __    __    __    __
+    __    __   GUI    __    LS    __
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+┌ Error: There is some error if the template keymap uses symmetric but non-shift keycodes.
+└ @ AdvancedLayoutCalculator.Calculators C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\Calculator\GeneticLayoutCalculator.jl:212
+┌ Info: GeneticLayoutCalculator{AdvancedScoreFunction}(rundescription = mostly blank template, some positions filled in, scaled ngrams but 3+ lowered slightly
+│ populationsize = 10000
+│ crossoverweight = 1.0
+│ swapmutationweight = 1.0
+│ identityweight = 0.0
+│ replacepointmutationweight = 1.0
+│ maxiter = 150
+│ earlystopping = #4
+│ replacementexclusions = Set(Keycode[_LBRC, _2, _1, _LPRN, _3, _RCBR, _6, _0, _5, _4, _8, _9, _RBRC, _7, _RPRN, _LCBR])
+│ selector = BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+│ , version = 0.1.0
+│ description = 
+│ holdliftpenalty = 2.0
+│ rollbonus = 0.5
+│ maxrolllength = 4
+│ samefingerpenalty = 3.0
+│ layerswitchcd = 4
+│ layerswitchpenalty = 3.0
+│ bigrambonus = 0.3
+│ multirowpenalty = 2.0
+│ multirowmod = 0.5
+└ )
+[ Info: Using BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+[ Info: Creating checkpoints/9d37f910
+An initial random keymap: 
+L1------------------------------------
+     T     M     V     O     A     I
+   TAB     F     G     L     Q     K
+  LCTL     S     C    LS  COMM     E
+     H     X     D  QUOT  SCLN    LS
+    __  CAPS   GUI   ALT  BSPC   SPC
+
+L2------------------------------------
+   ESC     Z     B     Y     N   GRV
+   TAB     P     J     U     R     W
+  LCTL     U     P    LS     R     B
+     Y     Z     J     W     N     Y
+    __    __   GUI     P    LS     B
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+with corresponding score: 207.67444
+[ Info: Garbage collecting
+[ Info: Stopping at generation 98 since current score 16.875257 is within 0.1% of average of previous 15 min scores 16.880371.
+swap count: 269593, layer switch swap count: 15383, identity count (mutations): 70952, identity count (crossovers): 37217, replace count: 297433, crossover count: 289416
+┌ Info: final solution
+│ L1------------------------------------
+│      J     Q   ENT  COMM     P  SCLN
+│    TAB     C   SPC     O     M   ENT
+│   LCTL     S     E    LS     N     W
+│      I     F     A     D     V    LS
+│     __  CAPS   GUI   ALT  BSPC   SPC
+│ 
+│ L2------------------------------------
+│    ESC     Z     Y     X  SLSH   GRV
+│    TAB  QUOT   SFT     K     R   DOT
+│   LCTL     H     I    LS     T     B
+│      R     U     O     S     G     Y
+│     __    __   GUI     R    LS     L
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│   UNDS    __     7     8     9    LS
+│     __    __  COLN     0   DOT  MINS
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __    __    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+│ 
+│ 10.0 8.0 2.5 2.5 2.5 4.5	
+│ 6.0 3.5 1.0 1.0 1.0 3.0	
+│ 5.0 1.5 0.5 0.5 0.5 2.0	
+│ 7.0 3.0 1.5 1.5 1.5 4.0	
+│ 15.0 13.0 6.0 3.0 0.75 0.5	
+│ 
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+│ 
+└ corresponding score: 16.875257
+[ Info: min of min score 16.875257 occurs at index 89, which corresponds to iteration 88 (index 1 is the initial solution, so index 2 is when iteration 1 starts)
+min of min solution without unused keys
+L1------------------------------------
+     J     Q   ENT  COMM     P  SCLN
+   TAB     C   SPC     O     M   ENT
+  LCTL     S     E    LS     N     W
+     I     F     A     D     V    LS
+    __  CAPS   GUI   ALT  BSPC   SPC
+
+L2------------------------------------
+   ESC     Z     Y     X  SLSH   GRV
+   TAB  QUOT   SFT     K     R   DOT
+  LCTL     H     I    LS     T     B
+     R     U     O     S     G     Y
+    __    __   GUI     R    LS     L
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+corresponding score: 16.875257
+                                       Scores                                       
+           +------------------------------------------------------------+           
+   111.957 |:                                                           | Avg scores
+           |:                                                           | Min scores
+           | :                                                          |           
+           | :                                                          |           
+           | :                                                          |           
+           |  :                                                         |           
+           |  ':                                                        |           
+           |    ''.                                                     |           
+           |       '.                                                   |           
+           |         :                                                  |           
+           |':        :                                                 |           
+           | :''...   '.....                                            |           
+           |       :.      ''''.......''....                            |           
+           |         '''....                ''''''''.......             |           
+   16.8753 |               ''''''':....................:.:::::::::::... |           
+           +------------------------------------------------------------+           
+            0                                                        100            
+                                     Generation                                     
+[ Info: rough time 2565.4479999542236
+[111.96 ± 34.88, 92.53 ± 23.95, 82.11 ± 17.73, 76.63 ± 16.97, 72.7 ± 16.9, 69.83 ± 16.86, 67.52 ± 16.39, 65.96 ± 16.67, 64.58 ± 17.32, 63.17 ± 16.72, 62.02 ± 16.97, 61.19 ± 17.11, 60.57 ± 17.51, 55.5 ± 17.28, 52.67 ± 18.88, 50.21 ± 19.0, 47.61 ± 19.06, 41.16 ± 16.87, 36.26 ± 12.49, 36.37 ± 13.79, 36.1 ± 13.54, 36.31 ± 15.27, 36.66 ± 16.23, 36.27 ± 16.23, 36.04 ± 16.25, 35.48 ± 16.83, 35.06 ± 16.39, 34.65 ± 16.66, 34.15 ± 16.39, 33.55 ± 16.16, 33.08 ± 16.05, 32.72 ± 16.26, 31.67 ± 16.32, 31.51 ± 15.49, 31.42 ± 15.62, 31.89 ± 16.77, 32.2 ± 17.35, 32.1 ± 17.5, 32.25 ± 17.58, 32.4 ± 18.41, 32.52 ± 19.24, 32.12 ± 18.7, 32.6 ± 19.5, 32.87 ± 20.46, 32.83 ± 20.73, 33.08 ± 21.61, 32.69 ± 21.24, 32.66 ± 21.17, 32.14 ± 19.95, 32.06 ± 20.42, 31.9 ± 20.36, 31.76 ± 20.43, 30.15 ± 18.52, 29.31 ± 17.75, 29.37 ± 18.02, 29.02 ± 17.29, 29.11 ± 18.29, 29.33 ± 18.59, 29.55 ± 19.1, 29.52 ± 18.9, 28.95 ± 18.92, 28.52 ± 17.26, 27.45 ± 16.24, 27.18 ± 16.57, 27.03 ± 15.61, 26.97 ± 16.47, 25.77 ± 13.67, 26.21 ± 14.89, 25.74 ± 15.53, 23.7 ± 13.49, 24.26 ± 14.15, 23.11 ± 12.32, 23.96 ± 14.71, 23.66 ± 12.42, 23.68 ± 13.03, 22.65 ± 11.87, 23.87 ± 13.32, 22.43 ± 13.06, 22.01 ± 12.2, 21.62 ± 11.8, 21.71 ± 11.83, 20.89 ± 10.32, 21.09 ± 11.87, 20.59 ± 11.83, 22.14 ± 12.22, 21.34 ± 12.2, 21.24 ± 11.11, 20.1 ± 11.96, 20.42 ± 11.82, 20.1 ± 10.93, 20.13 ± 11.38, 20.61 ± 11.83, 19.79 ± 11.62, 19.71 ± 11.32, 19.8 ± 12.73, 19.65 ± 11.23, 19.58 ± 10.26, 19.86 ± 12.74, 19.65 ± 10.97]
+Float32[45.6681, 46.3179, 38.8756, 41.0346, 41.5738, 40.535, 38.8878, 37.0535, 38.0854, 36.795, 36.4244, 32.8063, 30.2155, 29.7772, 28.5909, 28.1917, 27.4695, 26.9384, 26.4881, 24.9566, 24.9566, 24.6228, 24.2239, 23.7544, 23.5269, 22.2788, 22.2785, 22.1038, 21.7832, 21.7832, 21.3341, 21.1663, 20.8123, 20.504, 20.3921, 20.1964, 20.2288, 19.7985, 19.7985, 19.7069, 19.4416, 19.4416, 19.2914, 18.8269, 18.8269, 18.8097, 18.8097, 18.7717, 18.6864, 18.3042, 18.3042, 18.2811, 18.2304, 18.1588, 18.1738, 18.0949, 17.9624, 17.9364, 17.871, 17.8709, 17.7173, 17.5223, 17.5223, 17.5223, 17.4692, 17.3792, 17.3792, 17.3691, 17.335, 17.335, 17.2835, 17.2557, 17.2431, 17.2224, 17.2125, 17.1867, 17.1184, 17.1026, 17.023, 17.023, 16.98, 16.98, 16.9481, 16.9197, 16.8925, 16.8925, 16.8767, 16.8767, 16.8753, 16.8753, 16.8753, 16.8753, 16.8753, 16.8753, 16.8753, 16.8753, 16.8753, 16.8753, 16.8753]
+Float32[441.4333, 489.1018, 418.3198, 280.8406, 291.0484, 258.0365, 292.9701, 240.9927, 361.4572, 242.4414, 349.6067, 267.7252, 271.6915, 313.417, 304.1256, 300.0059, 287.5106, 237.1014, 282.0172, 203.0348, 192.4412, 263.4859, 300.5317, 200.3348, 212.8366, 290.098, 252.9667, 283.253, 277.9148, 274.3973, 275.4106, 289.0881, 294.8998, 273.9884, 270.6161, 302.7032, 281.2082, 304.3672, 290.1028, 285.3704, 310.3855, 297.2388, 307.6652, 295.935, 286.3241, 279.6316, 293.3782, 298.3926, 281.0141, 286.428, 285.8259, 285.8259, 285.262, 273.4278, 287.6696, 286.7556, 288.3266, 288.6102, 291.3436, 288.0283, 292.1394, 282.2712, 272.08, 278.9641, 282.7803, 284.2182, 287.6031, 274.8284, 273.0046, 275.9198, 273.2079, 270.7662, 273.5623, 273.1945, 275.8712, 280.5091, 271.6519, 272.35, 272.35, 271.9677, 272.4715, 270.1964, 273.0516, 270.0622, 272.9865, 270.7188, 270.7188, 270.6049, 270.6049, 270.6049, 270.6049, 270.6049, 270.6049, 270.6049, 270.6049, 270.6049, 270.6049, 270.6049, 270.6049]
+Min of the mins 16.8753
+Final score 16.875257

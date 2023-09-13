@@ -1,0 +1,157 @@
+2023-08-05T00:40:21.792	2d304a42	initial keymaps from blank template, different rng seed
+2023-08-05T01:04:47.541	96cc3dd0	blank test with shuffled keys to fill leftover spots
+2023-08-05T01:11:36.441	8a7e6930	multiple good initial keymaps
+2023-08-05T01:23:44.836	3c9f09c0	multiple good initial keymaps, more variation at the beginning
+2023-08-05T01:40:08.850	872cf770	multiple good initial keymaps, more variation at the beginning
+2023-08-05T01:50:29.777	f9229780	multiple good initial keymaps, more variation at the beginning
+2023-08-05T02:10:51.572	d1874010	multiple good initial keymaps (but not using the best one), more variation at the beginning
+2023-08-05T02:32:24.836	d47027d0	v6 basis, fewer initial mutations
+2023-08-05T02:33:30.662	fba6e9b2	v6 basis, fewer initial mutations
+2023-08-05T02:42:38.602	424458c0	v6 basis, fewer initial mutations, shift across layers
+2023-08-05T02:50:58.162	6bef3270	v6 basis, fewer initial mutations, removing some duplicates
+2023-08-05T03:09:41.945	09caf630	v6 basis, higher replacement weigght
+2023-08-05T03:11:24.375	46bc9da0	v6 basis, higher replacement weight
+2023-08-05T03:15:29.150	d8bae21e	plot test
+2023-08-05T03:17:38.650	25f69ca2	plot test
+2023-08-05T03:24:31.239	1bcf9fa0	increasing effort of 1, 2 and 2, 2
+2023-08-05T13:24:57.365	fcfb46c0	swapping S and W
+2023-08-05T17:03:09.030	783e2a00	'standard' effortmap, blank template
+2023-08-05T17:03:37.582	895ccb1e	'standard' effortmap, blank template
+2023-08-05T17:06:38.871	f5742650	'standard' effortmap, blank template
+2023-08-05T17:08:12.549	2d4da290	'standard' effortmap, blank template
+2023-08-05T17:09:23.226	5a025650	'standard' effortmap, blank template
+2023-08-05T17:09:48.987	695d0050	'standard' effortmap, blank template
+2023-08-05T17:10:52.864	8f6f6670	'standard' effortmap, blank template
+2023-08-05T17:16:18.413	4ee56090	'standard' effortmap, blank template
+2023-08-05T17:17:19.214	731c9e10	'standard' effortmap, blank template
+2023-08-05T19:00:45.878	e6880250	
+2023-08-05T19:01:37.222	0529a740	
+2023-08-05T19:04:28.147	6aff2450	
+2023-08-05T19:06:40.886	ba14f600	revised mulit row penalty and retune params
+2023-08-05T20:08:41.046	662328b0	remove space from 3-5grams, combining docs
+2023-08-05T20:09:33.239	82acea20	remove space from 3-5grams, combining docs
+2023-08-05T20:09:59.345	9238dd50	remove space from 3-5grams, combining docs
+2023-08-05T20:10:26.508	a2694de0	remove space from 3-5grams, combining docs
+2023-08-05T22:17:37.624	66ce0980	even more initial 'good' maps
+2023-08-06T10:40:31.329	2ea47630	high mutation rate
+2023-08-06T12:06:50.778	3e07b540	layer switches cancel out when scoring sequence, rolls of such not penalized from extra effort required to hold
+2023-08-06T12:45:55.895	b3d7ac80	layer switches cancel out when scoring sequence, rolls of such not penalized from extra effort required to hold, additional basis
+2023-08-06T13:12:14.867	61146660	layer switches cancel out when scoring sequence except if the same finger as the layer switch is used
+2023-08-06T13:12:56.102	7983bd90	layer switches cancel out when scoring sequence except if the same finger as the layer switch is used
+2023-08-06T18:29:29.441	b282ca12	traditional thumb adjacent layer switch, blank template
+2023-08-06T18:31:38.213	ff455cf0	traditional thumb adjacent layer switch, blank template
+2023-08-06T18:54:22.183	2c3eda82	traditional thumb adjacent layer switch, blank template
+2023-08-06T19:39:54.306	88ab8830	traditional thumb adjacent layer switch, blank template, ls moveability test
+2023-08-06T19:52:46.619	550fa3b0	traditional thumb adjacent layer switch, blank template, ls moveability test
+2023-08-06T19:54:06.657	84c27c40	traditional thumb adjacent layer switch, blank template, ls moveability test
+2023-08-06T19:54:55.190	a1b1dd50	traditional thumb adjacent layer switch, blank template, ls moveability test
+2023-08-06T19:57:20.469	f847d980	traditional thumb adjacent layer switch, blank template, full run
+2023-08-06T23:55:21.787	387f8130	fixed layer switch cancels
+2023-08-07T00:36:15.701	ef3f016e	fixed layer switch cancels, 3grams have spaces again
+2023-08-07T01:12:14.463	f5ec8060	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:13:50.336	2f142780	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:17:07.674	a4c95d10	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:18:39.029	db342e20	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:19:22.874	f550e730	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:19:42.252	00d582f0	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:20:16.824	157a3d92	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:20:42.474	24c15f90	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:21:11.694	362c24e0	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:21:35.010	44173952	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:21:58.731	5237dcb0	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:24:45.819	b5d013f0	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T01:26:02.901	e3bd47b0	fixed layer switch cancels, S at (1, 3, 2)
+2023-08-07T02:14:53.795	b6b0abbe	mostly blank template, some positions filled in, unscaled ngrams
+2023-08-07T09:16:31.516	9d37f910	mostly blank template, some positions filled in, scaled ngrams but 3+ lowered slightly
+2023-08-07T10:27:46.469	915ddec0	mostly blank template, some positions filled in, scaled ngrams but 3+ lowered slightly, incremental
+2023-08-07T11:36:32.860	2cd96730	mostly blank template, some positions filled in, scaled ngrams but 3+ lowered slightly, incremental
+2023-08-07T12:28:02.815	5e9ad040	unfixing S, no LL bigrams
+2023-08-07T16:04:28.007	9a5fbbe0	unfixing S, no double letter bigrams
+2023-08-07T17:25:05.049	ddfd73f0	fixing S, no double letter bigrams
+2023-08-07T17:25:21.845	e77ddb40	fixing S, no double letter bigrams
+2023-08-07T18:29:48.925	e8823cd0	fixing S, no double letter bigrams, higher samefingerpenalty
+2023-08-07T19:57:12.137	1d74f660	slight pinkie effort changes, fixing S, no double letter bigrams, higher samefingerpenalty, released layer 2 tab position
+2023-08-07T20:52:48.730	e2673080	released layer 2 tab position, space at 1, 5, 6
+2023-08-07T20:55:08.806	35e4f030	released layer 2 tab position, space at 1, 5, 6
+2023-08-07T20:57:47.247	9459ffc0	v0.5.8, released layer 2 tab position, space at 1, 5, 6
+2023-08-07T23:56:31.119	8c26334e	v0.5.8, released layer 2 tab position, space at 1, 5, 6
+2023-08-08T16:17:29.883	96b74910	v0.5.9, basis is 0.5.6; including gulliver's travels and huck finn to training	940.0710000991821
+2023-08-08T20:34:45.973	8793d150	v0.6.0, no 5grams
+2023-08-08T20:35:17.009	9a0bc0e0	v0.6.0, no 5grams	1339.5360000133514
+2023-08-09T16:13:25.552	2f9a3e80	v0.6.1, no 5grams, higher multirow penalty	1415.8559999465942
+2023-08-09T16:47:10.292	e680c430	v0.6.1, no 5grams, higher multirow penalty, 3 layer since 4th is all fixed, no multirow penalty if one finger is thumb
+2023-08-09T16:49:44.715	4393abb2	v0.6.1, no 5grams, higher multirow penalty, 3 layer since 4th is all fixed, no multirow penalty if one finger is thumb
+2023-08-09T16:50:55.169	6c80f72e	v0.6.1, no 5grams, higher multirow penalty, 3 layer since 4th is all fixed, no multirow penalty if one finger is thumb	1165.3209998607635
+2023-08-09T17:19:12.793	6060e1f0	v0.6.2, no 5grams, higher multirow penalty, 3 layer since 4th is all fixed, no multirow penalty if one finger is thumb, inner thumb ls
+2023-08-09T18:12:45.784	db799f60	v0.6.2, no 5grams, higher multirow penalty, 3 layer since 4th is all fixed, no multirow penalty if one finger is thumb, inner thumb ls	1701.226000070572
+2023-08-09T18:47:44.964	beacef40	v0.7.0 basis
+2023-08-09T18:48:42.037	e0460240	v0.7.0 basis	2613.633999824524
+2023-08-09T19:59:09.130	b83ca292	v0.7.1 correcting some unmoveable positions
+2023-08-09T20:01:36.087	0fd800ce	v0.7.1 correcting some unmoveable positions	1870.3959999084473
+2023-08-09T20:41:41.968	a9fdba10	v0.7.2 higher same finger penalty
+2023-08-09T20:42:12.082	bbca7580	v0.7.2 higher same finger penalty
+2023-08-09T20:45:52.555	3f370550	v0.7.2 higher same finger penalty
+2023-08-09T20:48:02.225	8c7c83d0	v0.7.2 higher same finger penalty
+2023-08-09T20:54:10.174	67d96fb0	v0.7.2 higher same finger penalty
+2023-08-09T20:58:26.613	00ab4b00	v0.7.2 higher same finger penalty
+2023-08-09T20:59:24.612	23394550	v0.7.2 higher same finger penalty
+2023-08-09T21:01:57.424	7e475c20	v0.7.2 higher same finger penalty
+2023-08-09T21:05:56.536	0cde80d0	v0.7.2 higher same finger penalty	1479.375
+2023-08-09T21:47:36.780	df1b3480	v0.7.3 LS inner thumb	1690.1449999809265
+2023-08-09T22:35:49.602	9b53cf30	v0.7.4, 0.7.3 basis	2354.625
+2023-08-10T00:02:51.874	c40e5470	v0.7.4, 0.7.3 basis (actually filled in)
+2023-08-10T00:03:36.364	de9dcc80	v0.7.4, 0.7.3 basis (actually filled in)
+2023-08-10T00:05:48.607	2d7842e0	v0.7.4, 0.7.3 basis (actually filled in)	1214.345999956131
+2023-08-10T15:33:14.394	bcddfd90	v0.7.5, BPSC inner thumb	2760.4110000133514
+2023-08-10T18:31:22.229	9f575c30	v0.7.6, BPSC inner thumb, lower samefinger and multirow
+2023-08-10T18:32:48.643	d2d23940	v0.7.6, BPSC inner thumb, lower samefinger and multirow
+2023-08-10T18:34:17.406	07bef5ce	v0.7.6, BPSC inner thumb, lower samefinger and multirow	1146.87299990654
+2023-08-10T18:58:52.972	7748db20	v0.5.10, 0.5.5 basis + v0.7.x changes
+2023-08-10T19:04:22.451	3bac9510	v0.5.10, 0.5.5 basis + v0.7.x changes
+2023-08-10T19:07:24.793	a85d9830	v0.5.10, 0.5.5 basis + v0.7.x changes	3609.15900015831
+2023-08-10T20:18:12.731	8c51d4d0	v0.9.0, don't always take best layer switch
+2023-08-10T20:23:18.557	42938bd0	v0.9.0, don't always take best layer switch	2271.8509998321533
+2023-08-12T23:35:33.334	729c4ca0	non-repeating, no replacements
+2023-08-12T23:40:15.852	1b1e9310	non-repeating, no replacements
+2023-08-12T23:42:22.259	6666baf0	non-repeating, no replacements
+2023-08-12T23:45:18.151	cf470702	non-repeating, no replacements
+2023-08-12T23:46:18.309	f321f3b0	non-repeating, no replacements	759.7740001678467
+2023-08-13T00:19:55.413	a54fd350	non-repeating, no replacements	1584.2880001068115
+2023-08-13T10:31:23.507	113cc280	non-repeating, no replacements, numbers on top	1043.8120000362396
+2023-08-13T11:00:12.817	17f8dce0	v0.5.11, 0.5.5 basis + v0.7.x changes, no 5grams, higher samefinger and multirow	2982.348000049591
+2023-08-13T14:18:59.415	dcd26ed0	v0.5.11, 0.5.5 basis + v0.7.x changes, no 5grams, higher samefinger and multirow
+2023-08-13T14:20:26.785	10e32340	v0.5.11, 0.5.5 basis + v0.7.x changes, no 5grams, higher samefinger and multirow	1715.7909998893738
+2023-08-13T15:00:38.225	ae325710	v0.5.11, 0.5.5 basis + v0.7.x changes, with 5grams, even higher samefinger and multirow	2411.7829999923706
+2023-08-13T20:20:05.639	4ed92fa0	v0.5.12, some layer 2 thumb positions fixed	2260.9479999542236
+2023-08-13T23:54:36.072	463a5310	v0.5.13, (5, 6) not fixed
+2023-08-14T02:16:43.581	210f017e	v0.5.13, (5, 6) not fixed	1523.4860000610352
+2023-08-15T14:12:26.370	47363760	v0.5.13-p5k, (5, 6) not fixed, 5ktest	1026.8269999027252
+2023-08-15T14:55:53.329	59300e90	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-15T14:56:46.408	78cdedd0	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-15T14:58:55.644	c5d81100	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-17T00:09:35.381	dd768a50	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-17T00:09:56.313	e9f47a2e	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-17T00:10:33.207	fff01240	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-17T00:10:53.371	0bf17f1e	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-17T00:11:43.919	2a12d080	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-17T00:12:06.490	378866d0	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-17T00:12:34.109	4800b5ce	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-17T00:12:59.629	572f94e0	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-17T00:13:10.722	5dd31b00	v0.5.13-p5k, (5, 6) not fixed, 5ktest
+2023-08-25T16:13:46.824	e2c7dd72	v0.5.16 layer 1, (3, 1) not control
+2023-08-25T16:15:02.326	0f0405d0	v0.5.16 layer 1, (3, 1) not control	759.731999874115
+2023-08-28T17:15:02.500	f02802e0	v0.5.17, (4, 6) higher effort
+2023-08-28T17:17:07.070	3a757710	v0.5.17, (4, 6) higher effort
+2023-08-28T17:20:13.705	a9afbd1e	v0.5.17, (4, 6) higher effort	753.3320000171661
+2023-09-07T18:19:29.238	990c4790	v0.6.0, 5x7 layout	1437.4110000133514
+2023-09-08T15:03:09.716	566a0770	v0.7.0, 4x12 layout
+2023-09-08T15:04:44.990	8f373280	v0.7.0, 4x12 layout
+2023-09-08T15:05:52.843	b79fe4b0	v0.7.0, 4x12 layout
+2023-09-08T15:06:42.990	d58c1c50	v0.7.0, 4x12 layout
+2023-09-08T15:09:39.498	3ec3b020	v0.7.0, 4x12 layout
+2023-09-08T15:11:50.969	8d1dd2f0	v0.7.0, 4x12 layout
+2023-09-08T15:28:15.960	d83d5242	v0.7.0, 4x12 layout, reduced crossover weight, initial keymap only one of each
+2023-09-08T15:28:45.136	e9a7c970	v0.7.0, 4x12 layout, reduced crossover weight, initial keymap only one of each
+2023-09-08T15:31:51.911	58f4fb40	v0.7.0, 4x12 layout, reduced crossover weight, initial keymap only one of each
+2023-09-08T15:33:49.333	9ee66850	v0.7.0, 4x12 layout, reduced crossover weight, initial keymap only one of each
+2023-09-08T15:36:25.403	fbfe7ff0	v0.7.0, 4x12 layout, reduced crossover weight, initial keymap only one of each	2275.3399999141693

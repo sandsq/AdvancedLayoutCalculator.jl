@@ -1,0 +1,103 @@
+8 threads
+swap count: 24310, layer switch swap count: 2176, identity count: 3207, replace count: 13263, crossover count: 57044
+┌ Info: final solution without removing unused keys
+│ L1------------------------------------
+│      C     V     J   SPC  MINS  SCLN
+│    TAB  MINS     L   SPC   DOT     L
+│   LCTL     F     O     T   SPC  COMM
+│      Q  BSPC     N     P     I     Y
+│     __    __   GUI   ALT    LS    LS
+│ 
+│ L2------------------------------------
+│    ESC     X     G     B     X   DOT
+│    TAB     S     Z     S  BSPC   SFT
+│   LCTL     X     S     E     R     L
+│      K     M     U     N     H     N
+│     __    __   GUI   ALT    LS     A
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN     D  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│   QUOT     W     7     8     9  BSPC
+│     __    __  COLN     0   DOT    LS
+│ 
+└ KeyLocation[(L0, R0, C0), (L1, R5, C5), (L1, R5, C6)]
+224.865650 seconds (9.83 G allocations: 673.710 GiB, 35.89% gc time, 2.03% compilation time)
+L1------------------------------------
+     C     V     J    __  MINS  SCLN
+   TAB    __     L   SPC   DOT    __
+  LCTL     F     O     T   SPC  COMM
+     Q    __     N     P     I     Y
+    __    __   GUI   ALT    LS    LS
+
+L2------------------------------------
+   ESC    __     G     B     X    __
+   TAB    __     Z     S  BSPC   SFT
+  LCTL    __     S     E     R     L
+     K     M     U     N     H    __
+    __    __   GUI   ALT    LS     A
+
+L3------------------------------------
+  LPRN  RPRN     D  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  QUOT     W     7     8     9    __
+    __    __  COLN     0   DOT    LS
+
+KeyLocation[(L0, R0, C0), (L1, R5, C5), (L1, R5, C6)]
+
+Min of the mins 5.0467366131e6
+Final score 5.337227607500001e6
+
+include crossover/mutate
+swap count: 24436, layer switch swap count: 2181, identity count: 3295, replace count: 13050, crossover count: 57038
+┌ Info: final solution without removing unused keys
+│ L1------------------------------------
+│      F     X     J     P     X     N
+│    TAB   SPC     S     G     V     U
+│   LCTL     F   SPC     A     O     L
+│   COMM     E   SFT  BSPC     F    LS
+│     __    __   GUI   ALT  SCLN    LS
+│ 
+│ L2------------------------------------
+│    ESC  BSPC     Q     Z     D   DOT
+│    TAB     W     T     N     C     Y
+│   LCTL  QUOT     B     R  MINS     H
+│      S     K   DOT     I     L     M
+│     __    __   GUI   ALT   DOT    LS
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   SPC  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│      S  BSPC     7     8     9    LS
+│     __    __  COLN     0   DOT     B
+│ 
+└ KeyLocation[(L0, R0, C0), (L1, R5, C6), (L1, R4, C6)]
+159.080556 seconds (9.94 G allocations: 684.323 GiB, 63.54% gc time, 16.91% compilation time)
+L1------------------------------------
+    __    __     J     P     X    __
+   TAB   SPC     S     G     V     U
+  LCTL     F   SPC     A     O     L
+  COMM     E   SFT  BSPC     F    LS
+    __    __   GUI   ALT  SCLN    LS
+
+L2------------------------------------
+   ESC    __     Q     Z     D    __
+   TAB     W     T     N     C     Y
+  LCTL  QUOT     B     R  MINS     H
+    __     K   DOT     I     L     M
+    __    __   GUI   ALT   DOT    LS
+
+L3------------------------------------
+  LPRN  RPRN   SPC  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+    __    __     7     8     9    LS
+    __    __  COLN     0   DOT    __
+
+KeyLocation[(L0, R0, C0), (L1, R5, C6), (L1, R4, C6)]
+
+Min of the mins 4.4153157842e6
+Final score 5.51361175715e6

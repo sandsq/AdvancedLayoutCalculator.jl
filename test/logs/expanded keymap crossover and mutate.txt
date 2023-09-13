@@ -1,0 +1,138 @@
+expanded keymap (effort layer inside keymap)
+
+@@@@ initial layer swaps
+BenchmarkTools.Trial: 100 samples with 995 evaluations.
+ Range (min … max):  33.166 ns … 139.296 ns  ┊ GC (min … max): 0.00% … 0.00%        
+ Time  (median):     34.623 ns               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   36.066 ns ±  11.014 ns  ┊ GC (mean ± σ):  0.00% ± 0.00%        
+
+   ▆█
+  ███▇▂▂▃▄▃▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂ ▂
+  33.2 ns         Histogram: frequency by time         68.2 ns <
+
+ Memory estimate: 0 bytes, allocs estimate: 0.
+@@@@ initial symm swaps
+BenchmarkTools.Trial: 100 samples with 6 evaluations.
+ Range (min … max):  5.333 μs … 24.750 μs  ┊ GC (min … max): 0.00% … 0.00%
+ Time  (median):     5.800 μs              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   6.408 μs ±  2.326 μs  ┊ GC (mean ± σ):  0.00% ± 0.00%
+
+   ▄█▃
+  ████▄▄▅▁▄▄▃▃▁▃▁▁▁▁▁▃▁▁▁▁▁▁▁▁▃▁▁▁▁▁▃▁▁▁▁▁▁▁▁▃▁▁▁▁▁▁▁▁▁▁▁▁▁▃ ▃
+  5.33 μs        Histogram: frequency by time        15.1 μs <
+
+ Memory estimate: 13.22 KiB, allocs estimate: 227.
+@@@@ basemap
+BenchmarkTools.Trial: 100 samples with 1 evaluation.
+ Range (min … max):  141.900 μs … 343.000 μs  ┊ GC (min … max): 0.00% … 0.00%       
+ Time  (median):     152.600 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   159.896 μs ±  24.880 μs  ┊ GC (mean ± σ):  0.00% ± 0.00%       
+
+   ▃▄▆▄▂█ ▂
+  ▆██████▇█▄▄▃▃▃▄▃▃▃▆▃▄▄▁▄▃▁▁▄▁▁▁▁▁▄▁▃▁▁▁▁▁▁▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▃ ▃
+  142 μs           Histogram: frequency by time          243 μs <
+
+ Memory estimate: 249.69 KiB, allocs estimate: 5739.
+@@@@ getting perm
+BenchmarkTools.Trial: 100 samples with 1 evaluation.
+ Range (min … max):  58.100 μs … 261.600 μs  ┊ GC (min … max): 0.00% … 0.00%        
+ Time  (median):     60.950 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   66.349 μs ±  24.004 μs  ┊ GC (mean ± σ):  0.00% ± 0.00%        
+
+  █▃
+  ██▇▆▄▃▃▁▃▂▁▁▁▁▁▁▂▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂ ▂
+  58.1 μs         Histogram: frequency by time          169 μs <
+
+ Memory estimate: 128.90 KiB, allocs estimate: 2997.
+@@@@@ applying perm
+BenchmarkTools.Trial: 100 samples with 1 evaluation.
+ Range (min … max):  82.200 μs … 202.500 μs  ┊ GC (min … max): 0.00% … 0.00%        
+ Time  (median):     86.700 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   89.195 μs ±  14.809 μs  ┊ GC (mean ± σ):  0.00% ± 0.00%        
+
+  ▇█ ▆▄▅▁▂
+  ██▇█████▅▁▅▁▅▁▅▁▁▁▁▅▁▁▁▁▁▁▁▁▁▁▁▅▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▅ ▅
+  82.2 μs       Histogram: log(frequency) by time       163 μs <
+
+  mutate 
+
+  @@@@ swap
+BenchmarkTools.Trial: 100 samples with 10 evaluations.
+ Range (min … max):  1.820 μs … 15.220 μs  ┊ GC (min … max): 0.00% … 0.00%
+ Time  (median):     2.350 μs              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   4.560 μs ±  3.147 μs  ┊ GC (mean ± σ):  0.00% ± 0.00%
+
+  ▅█▄                   ▅▂▁ ▂
+  ███▇▇▅▁▅▁▁▁▁▁▁▁▁▁▁▁▁▁▅███▇█▅▁▅▁▅▁▁▁▁▁▁▅▁▁▁▁▁▇▅▅▅▁▁▁▁▁▁▁▁▁▅ ▅
+  1.82 μs      Histogram: log(frequency) by time     13.9 μs <
+
+ Memory estimate: 2.23 KiB, allocs estimate: 69.
+@@@@ replace
+BenchmarkTools.Trial: 100 samples with 10 evaluations.
+ Range (min … max):  1.810 μs …   7.840 μs  ┊ GC (min … max): 0.00% … 0.00%
+ Time  (median):     2.090 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   2.236 μs ± 645.403 ns  ┊ GC (mean ± σ):  0.00% ± 0.00%
+
+      ▁ ▅█
+  ▄▃▃▆█▇████▄▄▅▄▄▁▁▄▄▄▃▄▃▁▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▃▁▁▁▁▁▁▁▁▃ ▃
+  1.81 μs         Histogram: frequency by time        4.07 μs <
+
+ Memory estimate: 4.01 KiB, allocs estimate: 65.
+@@@@ calculatescore
+BenchmarkTools.Trial: 10000 samples with 1 evaluation.
+ Range (min … max):  216.300 μs …   2.657 ms  ┊ GC (min … max): 0.00% … 87.56%      
+ Time  (median):     227.300 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   244.363 μs ± 161.696 μs  ┊ GC (mean ± σ):  4.67% ±  6.42%      
+
+   ▂▆▇█▇▅▄▃▃▂▁▁    ▁                                            ▂
+  ▇████████████████████▇▇▇▇▇▇▆▆▅▆▆▇▇▆▆▆▆▆▆▆▆▆▆▅▅▆▄▅▅▄▅▄▄▄▄▃▅▂▄▅ █
+  216 μs        Histogram: log(frequency) by time        361 μs <
+
+ Memory estimate: 232.56 KiB, allocs estimate: 5424.
+PS C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl> julia .\test\Calculator\benchmark_mutate.jl
+The latest version of Julia in the `release` channel is 1.9.2+0.x64.w64.mingw32. You currently have `1.9.1+0.x64.w64.mingw32` installed. Run:
+
+  juliaup update
+
+to install Julia 1.9.2+0.x64.w64.mingw32 and update the `release` channel to that version.
+benchmarking mutate function
+WARNING: Method definition hash(AdvancedLayoutCalculator.AlcUtils.Keycode, UInt64) in module AlcUtils at Enums.jl:210 overwritten at C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:89.
+  ** incremental compilation may be fatally broken for this module **
+
+┌ Warning: Making a deepcopy of the input Vector of Vectors so that the original Vec of Vecs can be reused.
+└ @ AdvancedLayoutCalculator.Keyboard C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\Keyboard\layer.jl:118
+loaded alc
+loaded alc submodules
+@@@@ swap
+BenchmarkTools.Trial: 100 samples with 10 evaluations.
+ Range (min … max):  1.740 μs … 16.050 μs  ┊ GC (min … max): 0.00% … 0.00%
+ Time  (median):     2.225 μs              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   4.355 μs ±  3.098 μs  ┊ GC (mean ± σ):  0.00% ± 0.00%
+
+   █
+  ▇██▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▄▆▄▅▃▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▂▃▁▂▁▁▂ ▂
+  1.74 μs        Histogram: frequency by time        12.5 μs <
+
+ Memory estimate: 2.23 KiB, allocs estimate: 69.
+@@@@ replace
+BenchmarkTools.Trial: 100 samples with 10 evaluations.
+ Range (min … max):  1.770 μs …   4.180 μs  ┊ GC (min … max): 0.00% … 0.00%
+ Time  (median):     2.090 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   2.151 μs ± 261.137 ns  ┊ GC (mean ± σ):  0.00% ± 0.00%
+
+                ▂ ▅ █ ▇▁▄ ▁ ▄
+  ▃▁▁▁▁▁▃▃▁▃▃▆▅▁█▁█▁█▆███▁█▅█▃▃▅▆▃█▅▃▃▃▁▃▃▁▁▁▁▁▃▅▁▁▃▃▁▁▃▁▁▁▁▅ ▃
+  1.77 μs         Histogram: frequency by time        2.65 μs <
+
+ Memory estimate: 4.01 KiB, allocs estimate: 65.
+@@@@ calculatescore
+BenchmarkTools.Trial: 10000 samples with 1 evaluation.
+ Range (min … max):  143.400 μs …   2.377 ms  ┊ GC (min … max): 0.00% … 92.27%      
+ Time  (median):     150.900 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   165.106 μs ± 138.912 μs  ┊ GC (mean ± σ):  5.58% ±  6.20%      
+
+  ▅███▇▆▆▄▃▂▁▁ ▁▁  ▁▁▁                                          ▂
+  █████████████████████▇▆▆▇▇▆▆▆▇▆▅▆▆▇▆▆▆▆▅▅▇▆▆▆▆▆▄▆▆▅▃▄▄▄▅▄▅▅▄▃ █
+  143 μs        Histogram: log(frequency) by time        274 μs <
+
+ Memory estimate: 205.83 KiB, allocs estimate: 4288.

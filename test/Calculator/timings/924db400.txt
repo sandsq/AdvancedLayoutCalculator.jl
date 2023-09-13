@@ -1,0 +1,36 @@
+
+@@@@ calc seq
+BenchmarkTools.Trial: 1000 samples with 1 evaluation.
+ Range (min … max):  35.500 μs …   2.513 ms  ┊ GC (min … max):  0.00% … 97.09%
+ Time  (median):     37.800 μs               ┊ GC (median):     0.00%
+ Time  (mean ± σ):   46.163 μs ± 108.191 μs  ┊ GC (mean ± σ):  10.30% ±  4.33%
+
+  ▆█▇▄▄  ▁▄▄▅▅▂▁▁  ▁                                            
+  ██████▆█████████▇█▆▇▆▇▆▆▄▅▄▄▁▅▄▅▄▅▁▁▆▆█▇▆▆▆▇▇▆▅▇▅▄▅▄▅▄▄▄▆▅▅▆ █
+  35.5 μs       Histogram: log(frequency) by time        72 μs <
+
+ Memory estimate: 132.88 KiB, allocs estimate: 2401.
+@@@@ calculatescore
+BenchmarkTools.Trial: 19 samples with 1 evaluation.
+ Range (min … max):  269.115 ms … 276.693 ms  ┊ GC (min … max): 16.49% … 17.37%
+ Time  (median):     271.719 ms               ┊ GC (median):    16.41%
+ Time  (mean ± σ):   271.837 ms ±   2.034 ms  ┊ GC (mean ± σ):  16.78% ±  0.50%
+
+  ▁  ▁▁ ▁ ▁   ▁▁▁▁    ▁█     ▁▁ ▁      ▁ ▁          ▁         ▁  
+  █▁▁██▁█▁█▁▁▁████▁▁▁▁██▁▁▁▁▁██▁█▁▁▁▁▁▁█▁█▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁█ ▁
+  269 ms           Histogram: frequency by time          277 ms <
+
+ Memory estimate: 721.98 MiB, allocs estimate: 12047103.
+score: 65.61383286046075
+
+@@@@ calc layout
+BenchmarkTools.Trial: 6 samples with 1 evaluation.
+ Range (min … max):  943.404 ms …   1.012 s  ┊ GC (min … max): 18.84% … 22.32%
+ Time  (median):     974.066 ms              ┊ GC (median):    20.68%
+ Time  (mean ± σ):   977.742 ms ± 25.903 ms  ┊ GC (mean ± σ):  20.52% ±  1.61%
+
+  █             █         █   █                      █       █  
+  █▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁█▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁█ ▁
+  943 ms          Histogram: frequency by time          1.01 s <
+
+ Memory estimate: 2.10 GiB, allocs estimate: 35736715.

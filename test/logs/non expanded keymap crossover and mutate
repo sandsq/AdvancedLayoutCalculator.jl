@@ -1,0 +1,93 @@
+orig
+
+@@@@ initial layer swaps
+BenchmarkTools.Trial: 100 samples with 995 evaluations.
+ Range (min … max):  32.563 ns … 83.518 ns  ┊ GC (min … max): 0.00% … 0.00%
+ Time  (median):     33.668 ns              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   34.836 ns ±  5.636 ns  ┊ GC (mean ± σ):  0.00% ± 0.00%
+
+  ▂█▂▅
+  ████▆▁▁▁▄▄▄▃▃▃▁▁▁▃▁▁▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▃ ▃
+  32.6 ns         Histogram: frequency by time        56.7 ns <
+
+ Memory estimate: 0 bytes, allocs estimate: 0.
+@@@@ initial symm swaps
+BenchmarkTools.Trial: 100 samples with 6 evaluations.
+ Range (min … max):  5.367 μs … 21.483 μs  ┊ GC (min … max): 0.00% … 0.00%
+ Time  (median):     5.883 μs              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   6.499 μs ±  2.424 μs  ┊ GC (mean ± σ):  0.00% ± 0.00%
+
+   ▃█
+  ▆██▄▄▃▃▁▁▁▁▁▁▁▁▁▁▃▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂ ▂
+  5.37 μs        Histogram: frequency by time        19.1 μs <
+
+ Memory estimate: 13.22 KiB, allocs estimate: 227.
+@@@@ basemap
+BenchmarkTools.Trial: 100 samples with 1 evaluation.
+ Range (min … max):  142.300 μs … 266.900 μs  ┊ GC (min … max): 0.00% … 0.00%       
+ Time  (median):     153.950 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   158.521 μs ±  14.668 μs  ┊ GC (mean ± σ):  0.00% ± 0.00%       
+
+             █  ▂
+  ▃▃▃▃▃▄▆▄▃▆▆████▇▆█▇▆▃▁▁▁▁▁▁▇▃▆▆▃▃▄▃▄▁▆▃▁▃▄▃▃▁▁▁▁▁▃▁▁▁▁▁▃▁▁▁▃▃ ▃
+  142 μs           Histogram: frequency by time          188 μs <
+
+ Memory estimate: 249.69 KiB, allocs estimate: 5739.
+@@@@ getting perm
+BenchmarkTools.Trial: 100 samples with 1 evaluation.
+ Range (min … max):  57.500 μs … 163.300 μs  ┊ GC (min … max): 0.00% … 0.00%
+ Time  (median):     59.800 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   63.757 μs ±  15.034 μs  ┊ GC (mean ± σ):  0.00% ± 0.00%        
+
+  ▇█▆▁▃
+  █████▅▆▁▅▁▁▅▁▁▁▅▁▁▁▅▁▁▁▁▁▁▁▁▁▁▁▁▅▅▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▅ ▅
+  57.5 μs       Histogram: log(frequency) by time       145 μs <
+
+ Memory estimate: 128.90 KiB, allocs estimate: 2997.
+@@@@@ applying perm
+BenchmarkTools.Trial: 100 samples with 1 evaluation.
+ Range (min … max):  83.000 μs … 141.700 μs  ┊ GC (min … max): 0.00% … 0.00%        
+ Time  (median):     86.700 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   89.674 μs ±   9.233 μs  ┊ GC (mean ± σ):  0.00% ± 0.00%        
+
+   ▆█▂ ▁
+  ▅███▆█▇█▇▄▃▁▁▄▁▃▃▁▁▁▁▁▃▃▃▃▃▁▃▃▁▁▁▁▁▁▁▁▁▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▃ ▃
+  83 μs           Histogram: frequency by time          134 μs <
+
+ Memory estimate: 207.62 KiB, allocs estimate: 5018.
+
+ mutate
+
+ @@@@ swap
+BenchmarkTools.Trial: 100 samples with 10 evaluations.
+ Range (min … max):  1.730 μs … 15.270 μs  ┊ GC (min … max): 0.00% … 0.00%
+ Time  (median):     2.240 μs              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   4.454 μs ±  3.129 μs  ┊ GC (mean ± σ):  0.00% ± 0.00%
+
+   █▂
+  ▅██▄▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▅▆▆▄▄▄▁▃▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▃▁▁▃▃ ▂
+  1.73 μs        Histogram: frequency by time        11.9 μs <
+
+ Memory estimate: 2.23 KiB, allocs estimate: 69.
+@@@@ replace
+BenchmarkTools.Trial: 100 samples with 10 evaluations.
+ Range (min … max):  1.780 μs …   3.860 μs  ┊ GC (min … max): 0.00% … 0.00%
+ Time  (median):     2.070 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   2.115 μs ± 250.149 ns  ┊ GC (mean ± σ):  0.00% ± 0.00%
+
+            ▁ █ ▆ ▃█ █▄█   ▃▁
+  ▄▄▁▁▁▇▁▆▆▆█▆█▁█▇██▇███▁▇▁██▁▆▁▆▁▄▁▁▁▁▁▁▁▁▁▁▁▄▄▄▄▁▁▄▄▁▄▁▄▁▁▄ ▄
+  1.78 μs         Histogram: frequency by time         2.7 μs <
+
+ Memory estimate: 4.01 KiB, allocs estimate: 65.
+@@@@ calculatescore
+BenchmarkTools.Trial: 10000 samples with 1 evaluation.
+ Range (min … max):  133.200 μs …   2.354 ms  ┊ GC (min … max): 0.00% … 91.09%      
+ Time  (median):     141.600 μs               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   154.160 μs ± 116.842 μs  ┊ GC (mean ± σ):  4.88% ±  6.03%      
+
+  ▂████▇▇▅▅▃▂▂▁ ▁    ▁                                          ▂
+  ███████████████▇▇▇██████▆▇▆▆▆▇▆▇▆▇▆▆▅▆▆▆▅▆▅▆▅▅▅▅▅▆▇▅▇▆▄▆▅▄▅▄▃ █
+  133 μs        Histogram: log(frequency) by time        256 μs <
+
+ Memory estimate: 200.81 KiB, allocs estimate: 4063.

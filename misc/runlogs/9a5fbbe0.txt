@@ -1,0 +1,806 @@
+[ Info: Bigrams containing space are skipped
+[ Info: Manually removing runs of spaces. Also not including 4+grams with any space.
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+[ Info: Setting _BSPS frequency to the average of _SPC and _E.
+[ Info: Saving ./test/data/2701-0.txt1342-0.txt100-100-50-50scaletruenodoublebigrams.jld2
+[ Info: generating 3 layer version
+L1------------------------------------
+     O     N     X     T     U     Y
+   TAB     I     N     T     H     G
+  LCTL     A   SPC     E    LS     R
+     Q     M     L     O     F    LS
+    __  CAPS   GUI   ALT  BSPC     S
+
+L2------------------------------------
+   ESC     D     K  SCLN     A   GRV
+   TAB     C   SFT     W     V     K
+  LCTL  COMM   ENT     D    LS     Z
+    __   DOT  QUOT     L     J     B
+    __    __   GUI   ALT    LS     P
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+52.657967
+[ Info: generating 3 layer version
+L1------------------------------------
+     F     R     W     O   SPC     V
+   TAB     S     I     A     H     W
+  LCTL     T   SPC     E    LS     F
+  QUOT     R     O     U     B    LS
+    __  CAPS   GUI   ALT  BSPC     D
+
+L2------------------------------------
+   ESC     Q     P     Y     Z   GRV
+   TAB     M     L     G     K     X
+  LCTL  COMM   SFT     N    LS     J
+  SCLN   DOT   ENT     S  SLSH    __
+    __    __   GUI   ALT    LS     C
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+30.023596
+[ Info: generating 3 layer version
+L1------------------------------------
+  MINS     B     U     G   SPC     A
+   TAB     I     N     T     H     D
+  LCTL     A   SPC     E    LS  COMM
+     T   DOT     R     F     M    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     Q     B  QUOT     J   GRV
+   TAB     V   SFT     W     P     Z
+  LCTL     R     L     S    LS     X
+     D  SCLN     C     Y     K    __
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+40.927174
+[ Info: generating 3 layer version
+L1------------------------------------
+  COMM     D     U   SPC     C     Y
+   TAB     W     H     I     T     V
+  LCTL     E   SPC     A    LS  COMM
+     Z     D     N     F     M    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     Q  QUOT     B     X   GRV
+   TAB   SFT     L     S     K  SCLN
+  LCTL     G     R     N    LS  SLSH
+     J   DOT     E     P  UNDS    __
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+40.54554
+[ Info: generating 3 layer version
+L1------------------------------------
+     Q   DOT   SFT     D   SPC  QUOT
+   TAB     E     H     T     I  COMM
+  LCTL     W   SPC    LS     A     G
+  SCLN     M     I     N     F    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC  SLSH     P     Z     M   GRV
+   TAB   ENT     N     X     E     Y
+  LCTL     S     L    LS     R     U
+     J     V     B  UNDS   DOT     K
+    __    __   GUI   ALT    LS     C
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+34.752213
+[ Info: generating 3 layer version
+L1------------------------------------
+     J   DOT   SFT     D   SPC  QUOT
+   TAB     E     H     T     I  COMM
+  LCTL     W   SPC    LS     A     G
+  SCLN     M     I     N     F    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     X     K     Z     M   GRV
+   TAB   ENT     N     Q     E     Y
+  LCTL     S     L    LS     R     U
+  SLSH     V     B    __     P   DOT
+    __    __   GUI   ALT    LS     C
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+34.686245
+[ Info: generating 3 layer version
+L1------------------------------------
+     X     J     Y   ENT   DOT  SCLN
+   TAB     G     N   SPC     D  COMM
+  LCTL     A    LS     H     T     W
+     B     S   SPC     F     R    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC    __     Z     U  COMM   GRV
+   TAB  QUOT     B     I     S     V
+  LCTL   SPC    LS     E     L     M
+     K   ENT     Q   SFT     C     P
+    __    __   GUI   ALT    LS     U
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 3]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+30.318695
+[ Info: generating 3 layer version
+L1------------------------------------
+  SLSH     J  SCLN     I  COMM     Y
+   TAB     G     N   SPC     D     B
+  LCTL     A    LS     H     T     W
+   DOT     S   SPC     O     R    LS
+    __  CAPS   GUI   ALT  BSPC     F
+
+L2------------------------------------
+   ESC    __     Z  QUOT     K   GRV
+   TAB     O     Q     L     S     V
+  LCTL     I    LS     E   SPC   ENT
+  COMM   SFT     X     U     M     P
+    __    __   GUI   ALT    LS     C
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 3]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+33.240013
+[ Info: generating 3 layer version
+L1------------------------------------
+     X     J     Y   ENT   DOT     E
+   TAB     G     N   SPC     D  COMM
+  LCTL     A    LS     H     T     W
+     B     S   SPC     F     R    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC  SCLN     Z     U  COMM   GRV
+   TAB  QUOT     B     I     S     V
+  LCTL   SPC    LS     E     L     M
+     K   ENT     Q   SFT     C     P
+    __    __   GUI   ALT    LS     U
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 3]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+30.43216
+[ Info: generating 3 layer version
+L1------------------------------------
+   DOT  SLSH   SFT   ENT   SPC  QUOT
+   TAB     E     H     T     I     T
+  LCTL     G     E    LS     A     W
+   SFT     V     I     D     N    LS
+    __  CAPS   GUI   ALT  BSPC   SPC
+
+L2------------------------------------
+   ESC     Z     J     X   ENT   GRV
+   TAB     K     F     P     S     C
+  LCTL     L     O    LS     R     U
+  SCLN     B     N     Q     M  COMM
+    __    __   GUI   ALT    LS     Y
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+21.913204
+[ Info: generating 3 layer version
+L1------------------------------------
+   DOT  SLSH   SFT   ENT   SPC  QUOT
+   TAB     E     H     T     I     L
+  LCTL     L     E    LS     A     W
+     P     V     I     D     N    LS
+    __  CAPS   GUI   ALT  BSPC   SPC
+
+L2------------------------------------
+   ESC     Z     J   SPC     X   GRV
+   TAB     B     Y     U     S     T
+  LCTL     R     O    LS     G     C
+  SCLN     M     N     Q     F  COMM
+    __    __   GUI   ALT    LS     K
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+22.904398
+[ Info: generating 3 layer version
+L1------------------------------------
+   DOT  SLSH   SFT   ENT   SPC  QUOT
+   TAB     E     H     T     I     W
+  LCTL     L     E    LS     A     F
+     P     V     L     D     M    LS
+    __  CAPS   GUI   ALT  BSPC   SPC
+
+L2------------------------------------
+   ESC     Z     Q     X     Y   GRV
+   TAB     C     S     W     N     S
+  LCTL     U     O    LS     R     G
+  COMM     I     N  SCLN     B     K
+    __    __   GUI     J    LS     Y
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+19.502392
+┌ Error: There is some error if the template keymap uses symmetric but non-shift keycodes.
+└ @ AdvancedLayoutCalculator.Calculators C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\Calculator\GeneticLayoutCalculator.jl:212
+┌ Info: GeneticLayoutCalculator{AdvancedScoreFunction}(rundescription = unfixing S, no double letter bigrams
+│ populationsize = 10000
+│ crossoverweight = 1.0
+│ swapmutationweight = 1.0
+│ identityweight = 0.0
+│ replacepointmutationweight = 1.0
+│ maxiter = 150
+│ earlystopping = #4
+│ replacementexclusions = Set(Keycode[_LBRC, _2, _1, _LPRN, _3, _RCBR, _6, _0, _5, _4, _8, _9, _RBRC, _7, _RPRN, _LCBR])
+│ selector = BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+│ , version = 0.1.0
+│ description = 
+│ holdliftpenalty = 2.0
+│ rollbonus = 0.5
+│ maxrolllength = 4
+│ samefingerpenalty = 3.0
+│ layerswitchcd = 4
+│ layerswitchpenalty = 3.0
+│ bigrambonus = 0.3
+│ multirowpenalty = 2.0
+│ multirowmod = 0.5
+└ )
+[ Info: Using BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+[ Info: Creating checkpoints/9a5fbbe0
+An initial random keymap: 
+L1------------------------------------
+  MINS     B     U     G   SPC     A
+   TAB     I     N     T     H     D
+  LCTL     A   SPC     E    LS  COMM
+     T   DOT     R     F     M    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     Q     B  QUOT     J   GRV
+   TAB     V   SFT     W     P     Z
+  LCTL     R     L     S    LS     X
+     D  SCLN     C     Y     K     E
+    __    __   GUI   ALT    LS   ENT
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 5]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+with corresponding score: 40.927174
+[ Info: Garbage collecting
+[ Info: Stopping at generation 89 since current score 18.884398 is within 0.1% of average of previous 15 min scores 18.887943.
+swap count: 237558, layer switch swap count: 16557, identity count (mutations): 74515, identity count (crossovers): 59786, replace count: 264727, crossover count: 236850
+┌ Info: final solution
+│ L1------------------------------------
+│      J  SLSH   SFT  QUOT   SPC   ENT
+│    TAB     W     H     T     I     S
+│   LCTL     E     E    LS     A     F
+│   COMM     V     L     D     M    LS
+│     __  CAPS   GUI   ALT  BSPC   SPC
+│ 
+│ L2------------------------------------
+│    ESC     Z     Q     X   DOT   GRV
+│    TAB     C     S     P     N     T
+│   LCTL     U     O    LS     R     G
+│      L     I     N  SCLN     B   ENT
+│     __    __   GUI     K    LS     Y
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│   UNDS    __     7     8     9    LS
+│     __    __  COLN     0   DOT  MINS
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __    __    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+│ 
+│ 10.0 8.0 2.5 2.5 2.5 4.5	
+│ 6.0 3.5 1.0 1.0 1.0 3.0	
+│ 5.0 1.5 0.5 0.5 0.5 2.0	
+│ 7.0 3.0 1.5 1.5 1.5 4.0	
+│ 15.0 13.0 6.0 3.0 0.75 0.5	
+│ 
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+│ 
+└ corresponding score: 18.884398
+[ Info: min of min score 18.884398 occurs at index 79, which corresponds to iteration 78 (index 1 is the initial solution, so index 2 is when iteration 1 starts)
+min of min solution without unused keys
+L1------------------------------------
+     J  SLSH   SFT  QUOT   SPC   ENT
+   TAB     W     H     T     I     S
+  LCTL     E     E    LS     A     F
+  COMM     V     L     D     M    LS
+    __  CAPS   GUI   ALT  BSPC   SPC
+
+L2------------------------------------
+   ESC     Z     Q     X   DOT   GRV
+   TAB     C     S     P     N     T
+  LCTL     U     O    LS     R     G
+     L     I     N  SCLN     B   ENT
+    __    __   GUI     K    LS     Y
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __    __    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.5 0.5 0.5 0.5 2.0	
+7.0 3.0 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+corresponding score: 18.884398
+                                       Scores                                       
+           +------------------------------------------------------------+           
+   46.0847 | :     .:                                                   | Avg scores
+           | :    :  :                                                  | Min scores
+           | :. .'   :                                                  |           
+           |.' ''     :                                                 |           
+           |:         '.                                                |           
+           |:           :                                               |           
+           |:            '.                                             |           
+           |'             :                                             |           
+           |               :. .....                                     |           
+           |                ''    '..                                   |           
+           |                         '''......... . .                   |           
+           |                                    :''.':.                 |           
+           |                                           :...             |           
+           |     .:''''''':..                           ' '':''''.:.:''.|           
+   18.8844 |....:'          '''''''''''':...............................|           
+           +------------------------------------------------------------+           
+            0                                                         90            
+                                     Generation                                     
+[ Info: rough time 2067.885999917984
+[32.53 ± 8.73, 45.81 ± 29.08, 41.41 ± 22.19, 40.94 ± 21.68, 40.52 ± 20.18, 40.59 ± 19.21, 41.27 ± 19.57, 42.43 ± 20.96, 42.91 ± 19.9, 43.79 ± 20.35, 44.45 ± 20.78, 45.18 ± 20.29, 46.08 ± 21.69, 42.66 ± 20.41, 39.96 ± 18.81, 38.04 ± 18.01, 37.29 ± 18.71, 36.49 ± 18.49, 35.9 ± 18.95, 34.78 ± 18.04, 33.95 ± 17.95, 32.95 ± 16.26, 31.05 ± 13.57, 29.78 ± 12.33, 29.63 ± 12.02, 29.57 ± 11.98, 30.04 ± 12.23, 30.2 ± 12.79, 30.37 ± 13.32, 30.49 ± 13.54, 30.54 ± 13.95, 30.15 ± 13.08, 29.92 ± 13.13, 29.45 ± 12.95, 28.77 ± 12.19, 28.65 ± 12.66, 28.02 ± 11.13, 27.58 ± 11.04, 27.44 ± 11.12, 27.71 ± 11.96, 27.41 ± 10.7, 26.94 ± 9.88, 26.93 ± 10.84, 26.61 ± 10.92, 26.83 ± 10.42, 26.88 ± 10.81, 26.54 ± 11.02, 26.73 ± 10.48, 26.88 ± 10.57, 26.96 ± 11.38, 26.75 ± 10.27, 27.01 ± 10.96, 26.52 ± 9.98, 26.19 ± 9.87, 25.19 ± 10.35, 25.92 ± 10.33, 26.22 ± 10.9, 25.8 ± 10.6, 25.2 ± 10.67, 25.61 ± 11.93, 26.19 ± 11.31, 25.95 ± 10.92, 24.72 ± 10.13, 24.74 ± 10.29, 23.01 ± 8.44, 22.8 ± 8.41, 22.42 ± 8.85, 22.58 ± 8.66, 22.74 ± 8.94, 21.87 ± 8.18, 21.75 ± 7.92, 22.02 ± 8.49, 21.58 ± 6.92, 21.61 ± 6.85, 22.01 ± 8.03, 21.92 ± 7.46, 22.1 ± 7.4, 21.64 ± 8.09, 21.64 ± 7.73, 21.6 ± 7.59, 21.57 ± 7.84, 21.71 ± 8.38, 21.58 ± 7.74, 21.64 ± 7.91, 21.57 ± 7.38, 21.67 ± 8.27, 21.66 ± 7.93, 21.66 ± 8.22, 21.54 ± 7.29, 21.57 ± 7.45]
+Float32[19.5024, 19.4953, 19.4953, 19.5012, 19.5538, 19.5538, 19.9538, 20.3978, 21.5026, 21.9994, 21.9994, 21.9994, 21.9901, 21.9901, 22.0025, 21.9065, 21.8259, 21.7471, 21.6222, 21.7471, 21.6503, 20.8093, 20.9651, 20.9651, 20.6745, 20.6745, 20.3545, 20.3545, 20.1897, 20.3545, 19.9525, 19.9525, 19.9525, 19.8066, 19.8066, 19.8495, 19.8108, 19.8108, 19.8108, 19.8022, 19.8022, 19.8022, 19.7197, 19.696, 19.6522, 19.6522, 19.7684, 19.7684, 19.6463, 19.6463, 19.6463, 19.6284, 19.588, 19.5069, 19.4869, 19.3811, 19.4069, 19.4046, 19.2812, 19.2812, 19.2812, 19.2136, 19.2136, 19.2136, 19.2031, 19.1176, 19.1176, 19.1176, 19.0489, 19.0489, 19.0489, 18.998, 18.998, 18.9911, 18.9065, 18.9051, 18.8913, 18.8913, 18.8844, 18.8844, 18.8844, 18.8844, 18.8844, 18.8844, 18.8844, 18.8844, 18.8844, 18.8844, 18.8844, 18.8844]
+Float32[52.658, 556.8301, 259.7838, 250.2418, 285.2366, 215.9674, 258.2519, 312.7215, 222.7033, 266.6052, 259.901, 229.3494, 269.2645, 239.312, 209.5355, 208.5104, 227.1866, 211.9282, 231.9091, 214.5686, 203.7147, 235.9605, 178.6531, 168.0816, 167.7614, 183.8634, 180.4697, 175.7777, 204.0154, 193.2929, 193.1989, 185.2084, 189.7825, 193.5629, 190.0195, 191.8294, 187.734, 198.7642, 194.1104, 198.9145, 194.2082, 198.6388, 198.7643, 198.5183, 197.5394, 201.247, 198.7715, 198.5202, 193.9551, 192.6645, 176.094, 193.822, 191.6763, 191.6522, 180.2857, 184.0452, 184.7968, 184.544, 186.3701, 186.6131, 186.6157, 187.4837, 168.7565, 187.482, 167.5226, 166.8799, 165.5217, 167.0695, 165.6585, 165.127, 165.127, 165.2673, 165.2673, 165.3558, 165.404, 165.4353, 165.4353, 156.6566, 156.6566, 156.6566, 156.7451, 156.7451, 156.7451, 156.7451, 156.7451, 156.7451, 156.7451, 156.7451, 156.7451, 156.7451]
+Min of the mins 18.8844
+Final score 18.884398

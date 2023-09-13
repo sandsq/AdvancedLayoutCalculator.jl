@@ -1,0 +1,41 @@
+[ Info: Loading ./test/data/2701-0.txt1342-0.txt100-100-50-50ngramlengthmaxgrams4test.jld2
+[ Info: Ngramconfig("test", 4, [-1, 100, 100, 50, 50], Set(Keycode[_CIRC, _HASH, _EXLM, _QUES, _TILD, _DQUO, _PASS, _PERC, _DLR, _AMPR, _AT, _COLN, _ASTR]), :ngramlength, Set{Keycode}())
+[ Info: generating 3 layer version
+┌ Error: There is some error if the template keymap uses symmetric but non-shift keycodes.
+└ @ AdvancedLayoutCalculator.Calculators C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\Calculator\GeneticLayoutCalculator.jl:212
+┌ Info: GeneticLayoutCalculator{AdvancedScoreFunction}(rundescription = v0.7.0, 4x12 layout, reduced crossover weight, initial keymap only one of each
+│ populationsize = 5000
+│ crossoverweight = 0.5
+│ swapmutationweight = 1.0
+│ identityweight = 0.0
+│ replacepointmutationweight = 1.0
+│ maxiter = 150
+│ earlystopping = #4
+│ replacementexclusions = Set(Keycode[_LBRC, _2, _1, _LPRN, _3, _RCBR, _6, _0, _5, _4, _8, _9, _RBRC, _7, _RPRN, _LCBR])
+│ selector = BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+│ , version = 0.1.0
+│ description = 
+│ holdliftpenalty = 2.0
+│ rollbonus = 0.5
+│ maxrolllength = 4
+│ samefingerpenalty = 4.0
+│ layerswitchcd = 4
+│ layerswitchpenalty = 3.0
+│ bigrambonus = 0.3
+│ multirowpenalty = 2.0
+│ multirowmod = 0.5
+└ )
+[ Info: Using BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+[ Info: Creating checkpoints/d83d5242
+[ Info: Not completely filling keymap, just adding every keycode once
+[ Info: Not completely filling keymap, just adding every keycode once
+[ Info: Not completely filling keymap, just adding every keycode once
+[ Info: Not completely filling keymap, just adding every keycode once
+[ Info: Not completely filling keymap, just adding every keycode once
+[ Info: Not completely filling keymap, just adding every keycode once
+[ Info: Not completely filling keymap, just adding every keycode once
+[ Info: Not completely filling keymap, just adding every keycode once
+[ Info: Not completely filling keymap, just adding every keycode once
+[ Info: Not completely filling keymap, just adding every keycode once
+[ Info: Not completely filling keymap, just adding every keycode once
+[ Info: Not completely filling keymap, just adding every keycode once

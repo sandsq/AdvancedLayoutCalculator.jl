@@ -1,0 +1,91 @@
+[ Info: Bigrams containing space are skipped
+[ Info: Manually removing runs of spaces. Also not including 3+grams with any space.
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+┌ Warning: Corresponding keycode not found.
+└ @ AdvancedLayoutCalculator.AlcUtils C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\AlcUtils.jl:211
+[ Info: Setting _BSPS frequency to the average of _SPC and _E.
+[ Info: Saving ./test/data/2701-0.txt1342-0.txt100-100-50-50ngramlengthmaxgrams4test.jld2
+[ Info: generating 3 layer version

@@ -1,0 +1,100 @@
+[ Info: Loading ./test/data/2701-0.txt1342-0.txt100-100-50-50scaletruemaxgrams4.jld2
+[ Info: generating 3 layer version
+L1------------------------------------------------
+     DOT    SLSH     SFT     ENT     SPC    QUOT
+   TAB@f       E       H       T       I       P
+  LCTL@f       S       E      LS       A       W
+    LS@f       F       I       V       N      __
+   GUI@f  CAPS@f   ALT@f    LS@f  BSPC@f   SPC@f
+
+L2------------------------------------------------
+   ESC@f       Z       Q       X       J   GRV@f
+      __       D       L       B       U       T
+  LCTL@f       G       O      LS       R       C
+    COMM       D       N    SCLN       M       K
+   GUI@f    __@f   ALT@f      __      __       Y
+
+L3------------------------------------------------
+    LPRN    RPRN     EQL    SLSH    ASTR    MINS
+    LBRC    RBRC       1       2       3    PLUS
+    LCBR    RCBR       4       5       6     ENT
+    LS@f      __       7       8       9      __
+      __      __    COLN       0     DOT    __@f
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 1])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.0 0.5 0.5 0.5 2.0	
+7.0 2.5 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 1.0 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+┌ Error: There is some error if the template keymap uses symmetric but non-shift keycodes.
+└ @ AdvancedLayoutCalculator.Calculators C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\Calculator\GeneticLayoutCalculator.jl:212
+┌ Info: GeneticLayoutCalculator{AdvancedScoreFunction}(rundescription = v0.5.11, 0.5.5 basis + v0.7.x changes, no 5grams, higher samefinger and multirow
+│ populationsize = 10000
+│ crossoverweight = 1.0
+│ swapmutationweight = 1.0
+│ identityweight = 0.0
+│ replacepointmutationweight = 1.0
+│ maxiter = 150
+│ earlystopping = #4
+│ replacementexclusions = Set(Keycode[_LBRC, _2, _1, _LPRN, _3, _RCBR, _6, _0, _5, _4, _8, _9, _RBRC, _7, _RPRN, _LCBR])
+│ selector = BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+│ , version = 0.1.0
+│ description = 
+│ holdliftpenalty = 2.0
+│ rollbonus = 0.5
+│ maxrolllength = 4
+│ samefingerpenalty = 4.0
+│ layerswitchcd = 4
+│ layerswitchpenalty = 3.0
+│ bigrambonus = 0.3
+│ multirowpenalty = 3.0
+│ multirowmod = 0.5
+└ )
+[ Info: Using BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+[ Info: Creating checkpoints/dcd26ed0
+An initial random keymap: 
+L1------------------------------------------------
+     DOT    SLSH     SFT     ENT     SPC    QUOT
+   TAB@f       E       H       T       I       P
+  LCTL@f       S       E      LS       A       W
+    LS@f       F       I       V       N    UNDS
+   GUI@f  CAPS@f   ALT@f    LS@f  BSPC@f   SPC@f
+
+L2------------------------------------------------
+   ESC@f       Z       Q       X       J   GRV@f
+    UNDS       D       L       B       U       T
+  LCTL@f       G       O      LS       R       C
+    COMM       D       N    SCLN       M       K
+   GUI@f    __@f   ALT@f    UNDS    UNDS       Y
+
+L3------------------------------------------------
+    LPRN    RPRN     EQL    SLSH    ASTR    MINS
+    LBRC    RBRC       1       2       3    PLUS
+    LCBR    RCBR       4       5       6     ENT
+    LS@f    UNDS       7       8       9    UNDS
+    UNDS    UNDS    COLN       0     DOT    __@f
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 1])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.0 0.5 0.5 0.5 2.0	
+7.0 2.5 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 1.0 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+with corresponding score: 13.282312

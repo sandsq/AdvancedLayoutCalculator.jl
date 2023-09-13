@@ -1,0 +1,47 @@
+
+@@@@ calc seq
+BenchmarkTools.Trial: 1000 samples with 1 evaluation.
+ Range (min … max):  35.600 μs …  2.053 ms  ┊ GC (min … max): 0.00% … 96.79%
+ Time  (median):     38.400 μs              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   45.984 μs ± 86.677 μs  ┊ GC (mean ± σ):  8.28% ±  4.32%
+
+  ▆▇██▅ ▄▇▅▄    ▁                ▂▂▁                          ▁
+  █████▇█████▇▇██▅▄▆▅▅▆▄▅▁▄▄▄▁▁▆████▇▇▇▆▇▇▆▄▆▆▁▅▄▄▅▁▄▁▁▁▆▁▆▄▄ █
+  35.6 μs      Histogram: log(frequency) by time      77.5 μs <
+
+ Memory estimate: 132.88 KiB, allocs estimate: 2401.
+@@@@ add to branch
+BenchmarkTools.Trial: 10000 samples with 893 evaluations.
+ Range (min … max):  129.451 ns …   3.002 μs  ┊ GC (min … max):  0.00% … 94.58%
+ Time  (median):     137.962 ns               ┊ GC (median):     0.00%
+ Time  (mean ± σ):   164.504 ns ± 217.413 ns  ┊ GC (mean ± σ):  13.85% ±  9.75%
+
+  █▃▁                                                           ▁
+  ████▇▅▄▄▄▁▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▄▆ █
+  129 ns        Histogram: log(frequency) by time       2.05 μs <
+
+ Memory estimate: 576 bytes, allocs estimate: 7.
+@@@@ calculatescore
+BenchmarkTools.Trial: 17 samples with 1 evaluation.
+ Range (min … max):  307.940 ms … 315.271 ms  ┊ GC (min … max): 16.11% … 16.71%
+ Time  (median):     311.731 ms               ┊ GC (median):    16.55%
+ Time  (mean ± σ):   311.866 ms ±   2.025 ms  ┊ GC (mean ± σ):  16.49% ±  0.31%
+
+  ▁       ▁   ▁     ▁ ▁    ▁    ▁█   ▁ ▁       ▁▁▁▁    ▁      ▁  
+  █▁▁▁▁▁▁▁█▁▁▁█▁▁▁▁▁█▁█▁▁▁▁█▁▁▁▁██▁▁▁█▁█▁▁▁▁▁▁▁████▁▁▁▁█▁▁▁▁▁▁█ ▁
+  308 ms           Histogram: frequency by time          315 ms <
+
+ Memory estimate: 821.21 MiB, allocs estimate: 13933304.
+score: 65.61383286046075
+
+@@@@ calc layout
+BenchmarkTools.Trial: 5 samples with 1 evaluation.
+ Range (min … max):  1.052 s …   1.138 s  ┊ GC (min … max): 17.32% … 21.66%
+ Time  (median):     1.096 s              ┊ GC (median):    19.93%
+ Time  (mean ± σ):   1.094 s ± 31.500 ms  ┊ GC (mean ± σ):  19.70% ±  1.66%
+
+  █                  █         █   █                      █  
+  █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁█▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█ ▁
+  1.05 s         Histogram: frequency by time        1.14 s <
+
+ Memory estimate: 2.40 GiB, allocs estimate: 41523598.

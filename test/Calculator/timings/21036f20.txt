@@ -1,0 +1,38 @@
+
+@@@@ calc seq
+BenchmarkTools.Trial: 1000 samples with 1 evaluation.
+ Range (min … max):  35.400 μs …  2.036 ms  ┊ GC (min … max): 0.00% … 96.50%
+ Time  (median):     38.100 μs              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   46.864 μs ± 90.065 μs  ┊ GC (mean ± σ):  8.40% ±  4.33%
+
+  █▇▅▃▇▄▁ ▁          ▂▄▂                                       
+  ██████████▇▇▄▅▄▅▆▄▆████▆▆▆▆▆▅▅▁▁▄▁▁▄▆▁▅▄▄▄▄▁▁▄▁▄▄▁▁▄▁▁▄▄▁▁▅ █
+  35.4 μs      Histogram: log(frequency) by time       102 μs <
+
+ Memory estimate: 132.88 KiB, allocs estimate: 2401.
+@@@@ calculatescore
+BenchmarkTools.Trial: 19 samples with 1 evaluation.
+ Range (min … max):  263.605 ms … 299.978 ms  ┊ GC (min … max): 14.96% … 16.05%
+ Time  (median):     268.092 ms               ┊ GC (median):    15.25%
+ Time  (mean ± σ):   270.126 ms ±   8.051 ms  ┊ GC (mean ± σ):  15.13% ±  0.46%
+
+         █                                                       
+  ▄▄▄▇▁▄▁█▄▁▇▁▄▁▁▁▁▄▁▁▁▁▁▁▁▁▄▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▄ ▁
+  264 ms           Histogram: frequency by time          300 ms <
+
+ Memory estimate: 721.98 MiB, allocs estimate: 12047103.
+score: 65.61383286046075
+
+@@@@ calc layout
+BenchmarkTools.Trial: 5 samples with 1 evaluation.
+ Range (min … max):  966.237 ms …   1.070 s  ┊ GC (min … max): 16.57% … 17.38%
+ Time  (median):     997.172 ms              ┊ GC (median):    19.45%
+ Time  (mean ± σ):      1.018 s ± 47.660 ms  ┊ GC (mean ± σ):  18.66% ±  1.65%
+
+  █            █   █                                        ██  
+  █▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁██ ▁
+  966 ms          Histogram: frequency by time          1.07 s <
+
+ Memory estimate: 2.10 GiB, allocs estimate: 35736727.
+
+ using rownum and colnum for keylocation instead of gridposition

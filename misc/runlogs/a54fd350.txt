@@ -1,0 +1,204 @@
+[ Info: Loading ./test/data/2701-0.txt1342-0.txt100-100-50-50scaletruemaxgrams4.jld2
+[ Info: generating 3 layer version
+L1------------------------------------------------
+      __      __      __      __      __      __
+   TAB@f      __      __      __      __      __
+  LCTL@f      __      __      LS      __      __
+    LS@f      __      __      __      __      __
+   GUI@f  CAPS@f   ALT@f    LS@f  BSPC@f   SPC@f
+
+L2------------------------------------------------
+   ESC@f      __      __      __      __   GRV@f
+      __      __      __      __      __      __
+  LCTL@f      __      __      LS      __      __
+      __      __      __      __      __      __
+   GUI@f    __@f   ALT@f      __      __      __
+
+L3------------------------------------------------
+  LPRN@f  RPRN@f   EQL@f  SLSH@f  ASTR@f  MINS@f
+  LBRC@f  RBRC@f     1@f     2@f     3@f  PLUS@f
+  LCBR@f  RCBR@f     4@f     5@f     6@f   ENT@f
+    LS@f  COMM@f     7@f     8@f     9@f      __
+    __@f    __@f  COLN@f     0@f   DOT@f    __@f
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 1])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.0 0.5 0.5 0.5 2.0	
+7.0 2.5 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+┌ Error: There is some error if the template keymap uses symmetric but non-shift keycodes.
+└ @ AdvancedLayoutCalculator.Calculators C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\Calculator\GeneticLayoutCalculator.jl:212
+┌ Info: GeneticLayoutCalculator{AdvancedScoreFunction}(rundescription = non-repeating, no replacements
+│ populationsize = 10000
+│ crossoverweight = 1.0
+│ swapmutationweight = 1.0
+│ identityweight = 0.0
+│ replacepointmutationweight = 0.0
+│ maxiter = 150
+│ earlystopping = #4
+│ replacementexclusions = Set(Keycode[_LBRC, _2, _1, _LPRN, _3, _RCBR, _6, _0, _5, _4, _8, _9, _RBRC, _7, _RPRN, _LCBR])
+│ selector = BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+│ , version = 0.1.0
+│ description = 
+│ holdliftpenalty = 2.0
+│ rollbonus = 0.5
+│ maxrolllength = 4
+│ samefingerpenalty = 3.0
+│ layerswitchcd = 4
+│ layerswitchpenalty = 3.0
+│ bigrambonus = 0.3
+│ multirowpenalty = 2.0
+│ multirowmod = 0.5
+└ )
+[ Info: Using BestScoresSelector(Float32[0.0, 0.085, 0.34, 0.5], Float32[0.5, 0.1, 0.05, 0.0])
+[ Info: Creating checkpoints/a54fd350
+An initial random keymap: 
+L1------------------------------------------------
+       J       P       A       X       O       N
+   TAB@f       H       L       U       M       S
+  LCTL@f     SFT       R      LS    QUOT       C
+    LS@f       K       Z       E    UNDS       Y
+   GUI@f  CAPS@f   ALT@f    LS@f  BSPC@f   SPC@f
+
+L2------------------------------------------------
+   ESC@f       V       F       G       Q   GRV@f
+       B       T    SCLN       W       D       I
+  LCTL@f      __      __      LS      __      __
+      __      __      __      __      __      __
+   GUI@f    __@f   ALT@f      __      __      __
+
+L3------------------------------------------------
+  LPRN@f  RPRN@f   EQL@f  SLSH@f  ASTR@f  MINS@f
+  LBRC@f  RBRC@f     1@f     2@f     3@f  PLUS@f
+  LCBR@f  RCBR@f     4@f     5@f     6@f   ENT@f
+    LS@f  COMM@f     7@f     8@f     9@f       A
+    __@f    __@f  COLN@f     0@f   DOT@f    __@f
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 1])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.0 0.5 0.5 0.5 2.0	
+7.0 2.5 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+with corresponding score: 86.51591
+[ Info: Garbage collecting
+[ Info: Stopping at generation 92 since current score 10.55345 is within 0.1% of average of previous 15 min scores 10.557401.
+swap count: 421250, layer switch swap count: 16638, identity count (mutations): 22105, identity count (crossovers): 55575, replace count: 0, crossover count: 404421
+┌ Info: final solution
+│ L1------------------------------------------------
+│       __      __       W    COMM       L       J
+│    TAB@f       B       L       S       A     SFT
+│   LCTL@f       T       H      LS       E       F
+│     LS@f       W     SFT     ENT    QUOT    SCLN
+│    GUI@f  CAPS@f   ALT@f    LS@f  BSPC@f   SPC@f
+│ 
+│ L2------------------------------------------------
+│    ESC@f      __      __      __       R   GRV@f
+│     UNDS       V       E       K       U       Q
+│   LCTL@f       G       O      LS       I       P
+│        Z       C       D      __       Y       X
+│    GUI@f    __@f   ALT@f       M       R       N
+│ 
+│ L3------------------------------------------------
+│   LPRN@f  RPRN@f   EQL@f  SLSH@f  ASTR@f  MINS@f
+│   LBRC@f  RBRC@f     1@f     2@f     3@f  PLUS@f
+│   LCBR@f  RCBR@f     4@f     5@f     6@f   ENT@f
+│     LS@f  COMM@f     7@f     8@f     9@f      __
+│     __@f    __@f  COLN@f     0@f   DOT@f    __@f
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 1])]
+│ 
+│ 10.0 8.0 2.5 2.5 2.5 4.5	
+│ 6.0 3.5 1.0 1.0 1.0 3.0	
+│ 5.0 1.0 0.5 0.5 0.5 2.0	
+│ 7.0 2.5 1.5 1.5 1.5 4.0	
+│ 15.0 13.0 6.0 3.0 0.75 0.5	
+│ 
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+│ (left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+│ 
+└ corresponding score: 10.55345
+[ Info: min of min score 10.55345 occurs at index 88, which corresponds to iteration 87 (index 1 is the initial solution, so index 2 is when iteration 1 starts)
+min of min solution without unused keys
+L1------------------------------------------------
+      __      __       W    COMM       L       J
+   TAB@f       B       L       S       A     SFT
+  LCTL@f       T       H      LS       E       F
+    LS@f       W     SFT     ENT    QUOT    SCLN
+   GUI@f  CAPS@f   ALT@f    LS@f  BSPC@f   SPC@f
+
+L2------------------------------------------------
+   ESC@f      __      __      __       R   GRV@f
+    UNDS       V       E       K       U       Q
+  LCTL@f       G       O      LS       I       P
+       Z       C       D      __       Y       X
+   GUI@f    __@f   ALT@f       M       R       N
+
+L3------------------------------------------------
+  LPRN@f  RPRN@f   EQL@f  SLSH@f  ASTR@f  MINS@f
+  LBRC@f  RBRC@f     1@f     2@f     3@f  PLUS@f
+  LCBR@f  RCBR@f     4@f     5@f     6@f   ENT@f
+    LS@f  COMM@f     7@f     8@f     9@f      __
+    __@f    __@f  COLN@f     0@f   DOT@f    __@f
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 1])]
+
+10.0 8.0 2.5 2.5 2.5 4.5	
+6.0 3.5 1.0 1.0 1.0 3.0	
+5.0 1.0 0.5 0.5 0.5 2.0	
+7.0 2.5 1.5 1.5 1.5 4.0	
+15.0 13.0 6.0 3.0 0.75 0.5	
+
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,ring)	(left,middle)	(left,index)	(left,index)	
+(left,pinkie)	(left,pinkie)	(left,thumb)	(left,thumb)	(left,thumb)	(left,thumb)	
+
+corresponding score: 10.55345
+                                       Scores                                       
+           +------------------------------------------------------------+           
+   99.8807 |:                                                           | Avg scores
+           | :                                                          | Min scores
+           | :                                                          |           
+           | '.                                                         |           
+           |  :.                                                        |           
+           |    :.                                                      |           
+           |      :.                                                    |           
+           |       '.                                                   |           
+           |        :                                                   |           
+           |.        :                                                  |           
+           | :.       '.                                                |           
+           |  '::...    :.                                              |           
+           |      ''.     '':................                           |           
+           |        '''...                   ':...........              |           
+   10.5534 |              '''''''':.............:........::.........    |           
+           +------------------------------------------------------------+           
+            0                                                        100            
+                                     Generation                                     
+[ Info: rough time 1584.2880001068115
+[99.88 ± 25.25, 87.78 ± 22.76, 80.1 ± 19.06, 75.7 ± 19.26, 72.58 ± 18.85, 70.22 ± 19.34, 67.95 ± 19.16, 66.22 ± 19.96, 64.58 ± 19.58, 62.23 ± 19.26, 60.54 ± 18.47, 58.91 ± 18.5, 57.35 ± 18.8, 49.94 ± 17.18, 45.06 ± 15.43, 42.09 ± 15.42, 39.69 ± 15.14, 37.45 ± 14.39, 35.3 ± 14.23, 32.98 ± 13.95, 30.23 ± 12.75, 29.32 ± 12.42, 28.5 ± 12.87, 27.56 ± 12.12, 26.92 ± 11.58, 26.73 ± 11.74, 25.98 ± 11.55, 25.3 ± 11.83, 24.53 ± 11.5, 23.95 ± 10.53, 24.09 ± 11.21, 23.58 ± 10.43, 23.78 ± 10.81, 23.39 ± 10.47, 23.04 ± 9.91, 23.36 ± 10.54, 23.48 ± 10.66, 23.56 ± 10.55, 23.89 ± 11.26, 24.09 ± 11.56, 24.3 ± 11.96, 24.28 ± 11.96, 24.48 ± 12.36, 24.44 ± 12.32, 24.36 ± 12.18, 24.14 ± 12.19, 24.03 ± 12.16, 23.94 ± 12.32, 23.81 ± 12.11, 23.69 ± 11.87, 23.53 ± 11.88, 23.19 ± 11.49, 22.84 ± 11.34, 22.53 ± 11.05, 22.2 ± 11.03, 21.57 ± 10.58, 20.78 ± 10.49, 19.41 ± 9.46, 17.69 ± 8.15, 16.77 ± 7.08, 16.31 ± 6.45, 16.66 ± 6.99, 16.72 ± 6.97, 16.77 ± 6.94, 16.91 ± 6.92, 17.17 ± 7.28, 17.55 ± 7.58, 17.76 ± 7.87, 18.01 ± 8.41, 17.68 ± 8.03, 17.78 ± 8.2, 17.65 ± 8.23, 17.26 ± 7.99, 16.98 ± 8.0, 16.62 ± 7.21, 16.0 ± 6.78, 15.16 ± 6.23, 12.12 ± 4.66, 12.26 ± 4.77, 12.17 ± 5.12, 12.49 ± 5.28, 12.05 ± 4.76, 11.93 ± 4.84, 11.95 ± 4.81, 12.0 ± 4.67, 11.99 ± 5.02, 11.97 ± 4.79, 11.95 ± 4.37, 11.97 ± 4.83, 11.94 ± 4.48, 11.89 ± 4.24, 11.93 ± 4.44, 11.94 ± 4.44]
+Float32[40.3655, 40.0366, 36.8228, 35.6226, 31.1845, 33.8123, 33.0746, 29.9966, 29.2735, 26.5868, 29.1576, 29.067, 27.8743, 23.3031, 19.9803, 19.9296, 19.7566, 19.5185, 18.0559, 17.4535, 17.1699, 16.9603, 16.7589, 16.0994, 15.7682, 15.51, 15.2101, 15.0141, 14.7105, 14.6516, 14.4164, 14.2386, 14.2817, 14.0865, 13.6536, 13.641, 13.72, 13.5039, 13.2106, 13.3481, 13.0398, 13.0218, 12.9367, 12.9367, 12.734, 12.7252, 12.5998, 12.4021, 12.3997, 12.0104, 12.0104, 12.2316, 12.044, 11.936, 11.5691, 11.6379, 11.5468, 11.4084, 11.3334, 11.3334, 11.2409, 11.2332, 11.1483, 11.0344, 11.0482, 11.0344, 11.0344, 10.9711, 10.9232, 10.8735, 10.8901, 10.8514, 10.8514, 10.6573, 10.6573, 10.6493, 10.5893, 10.5799, 10.5677, 10.5677, 10.5563, 10.5555, 10.5548, 10.5546, 10.5538, 10.5538, 10.5535, 10.5534, 10.5534, 10.5534, 10.5534, 10.5534, 10.5534]
+Float32[287.2442, 490.0724, 298.3456, 368.2136, 280.8299, 268.8233, 318.8953, 434.6044, 333.3815, 428.817, 233.9022, 242.6412, 327.0718, 245.8876, 205.7848, 207.8142, 200.8863, 254.3782, 174.8016, 211.5513, 198.9936, 179.2362, 179.513, 188.7104, 135.1168, 158.214, 144.8927, 161.3066, 141.4493, 116.3288, 135.6229, 121.8226, 141.7831, 114.7806, 123.5784, 140.893, 111.0389, 112.0251, 124.2424, 148.7452, 122.256, 135.3953, 159.531, 137.9079, 107.2002, 120.472, 163.4633, 119.2084, 133.0653, 112.7858, 128.756, 110.2324, 123.944, 106.2545, 111.107, 114.9193, 112.4071, 107.5442, 118.2171, 108.3642, 104.5344, 111.4024, 112.8974, 110.8987, 105.3864, 109.9152, 105.0772, 96.6795, 110.3121, 103.3112, 111.4354, 104.8594, 102.161, 112.6168, 103.6596, 104.1859, 100.7848, 102.262, 103.4452, 100.9998, 103.3161, 100.2314, 100.2144, 100.199, 100.199, 100.1751, 100.1751, 98.8737, 98.8743, 98.8743, 98.8707, 98.8707, 98.8707]
+Min of the mins 10.5534
+Final score 10.55345

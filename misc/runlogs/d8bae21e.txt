@@ -1,0 +1,162 @@
+[ Info: Loading ./test/data/2701-0.txt.100-100-50-50scaletrue.jld2
+[ Info: generating 3 layer version
+L1------------------------------------
+     J   DOT   SFT     D   SPC  QUOT
+   TAB     E     H     T     I  COMM
+  LCTL     W   SPC    LS     A     G
+  SCLN     M     I     N     F    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     X     K     Z     M   GRV
+   TAB   ENT     N     Q     E     Y
+  LCTL     S     L    LS     R     U
+  SLSH     V     B    __     P   DOT
+    __    __   GUI   ALT    LS     C
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+15.8059435
+┌ Error: There is some error if the template keymap uses symmetric but non-shift keycodes.
+└ @ AdvancedLayoutCalculator.Calculators C:\Users\sdgu0\Documents\julia\AdvancedLayoutCalculator.jl\src\Calculator\GeneticLayoutCalculator.jl:206
+[ Info: GeneticLayoutCalculator{AdvancedScoreFunction}(CalculatorConfig{AdvancedLayoutCalculator.Calculators.var"#4#9"}("plot test", 5000, 0.9f0, 0.3f0, 0.0f0, 0.3f0, 10, AdvancedLayoutCalculator.Calculators.var"#4#9"(), Set(Keycode[_LBRC, _2, _1, _LPRN, _3, _RCBR, _6, _0, _5, _4, _8, _9, _RBRC, _7, _RPRN, _LCBR]), BestScoresSelector(Float32[0.0, 0.17, 0.34, 0.5], Float32[0.3, 0.1, 0.05, 0.0])), AdvancedScoreFunction("0.1.0", "", 2.0f0, 0.5f0, 4, 3.0f0, 4, 3.5f0, 0.25f0, 1.25f0, 0.5f0))
+[ Info: Using BestScoresSelector(Float32[0.0, 0.17, 0.34, 0.5], Float32[0.3, 0.1, 0.05, 0.0])
+[ Info: Creating checkpoints/d8bae21e
+An initial random keymap: 
+L1------------------------------------
+     J   DOT   SFT     D   SPC  QUOT
+   TAB     E     H     T     I  COMM
+  LCTL     W   SPC    LS     A     G
+  SCLN     M     I     N     F    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     X     K     Z     M   GRV
+   TAB   ENT     N     Q     E     Y
+  LCTL     S     L    LS     R     U
+  SLSH     V     B     E     P   DOT
+    __    __   GUI   ALT    LS     C
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+with corresponding score: 15.8059435
+[ Info: Garbage collecting
+swap count: 8091, layer switch swap count: 561, identity count (mutations): 2450, identity count (crossovers): 13859, replace count: 8908, crossover count: 16130
+┌ Info: final solution
+│ L1------------------------------------
+│      J   DOT   SFT     D   SPC  QUOT
+│    TAB     E     H     T     I  COMM
+│   LCTL     W   SPC    LS     A     G
+│   SCLN     M     I     N     F    LS
+│     __  CAPS   GUI   ALT  BSPC     O
+│ 
+│ L2------------------------------------
+│    ESC     X     K  SLSH     M   GRV
+│    TAB   ENT     N     Q     E     Y
+│   LCTL     S     L    LS     R     U
+│      K     V     B     Z     P   DOT
+│     __    __   GUI   ALT    LS     C
+│ 
+│ L3------------------------------------
+│   LPRN  RPRN   EQL  SLSH  ASTR  MINS
+│   LBRC  RBRC     1     2     3  PLUS
+│   LCBR  RCBR     4     5     6   ENT
+│   UNDS    __     7     8     9    LS
+│     __    __  COLN     0   DOT  MINS
+│ 
+│ L4------------------------------------
+│     __    __    __    __    __    __
+│     F1    F2    F3    F4    F5    F6
+│     __  LEFT    UP  DOWN  RGHT   DEL
+│    SFT  HOME  PGUP  PGDN   END  PSCR
+│     __  UNDS    __    __    LS    __
+│ 
+│ KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+│ 
+└ corresponding score: 15.803804
+[ Info: min of min score 15.803804 occurs at index 11, which corresponds to iteration 10 (index 1 is the initial solution, so index 2 is when iteration 1 starts)
+min of min solution without unused keys
+L1------------------------------------
+     J   DOT   SFT     D   SPC  QUOT
+   TAB     E     H     T     I  COMM
+  LCTL     W   SPC    LS     A     G
+  SCLN     M     I     N     F    LS
+    __  CAPS   GUI   ALT  BSPC     O
+
+L2------------------------------------
+   ESC     X     K  SLSH     M   GRV
+   TAB   ENT     N     Q     E     Y
+  LCTL     S     L    LS     R     U
+     K     V     B     Z     P   DOT
+    __    __   GUI   ALT    LS     C
+
+L3------------------------------------
+  LPRN  RPRN   EQL  SLSH  ASTR  MINS
+  LBRC  RBRC     1     2     3  PLUS
+  LCBR  RCBR     4     5     6   ENT
+  UNDS    __     7     8     9    LS
+    __    __  COLN     0   DOT  MINS
+
+L4------------------------------------
+    __    __    __    __    __    __
+    F1    F2    F3    F4    F5    F6
+    __  LEFT    UP  DOWN  RGHT   DEL
+   SFT  HOME  PGUP  PGDN   END  PSCR
+    __  UNDS    __    __    LS    __
+
+KeyLocation[(0, [0, 0]), (1, [3, 4]), (1, [4, 6]), (2, [5, 5])]
+
+corresponding score: 15.803804
+                                                           Scores                                                           
+           +----------------------------------------------------------------------------------------------------+           
+   22.1557 |         ::                                                                                         | Avg scores
+           |        .''.                                                                                        | Min scores
+           |        :  '.                                                                                       |           
+           |       :    '.                                                                                      |           
+           |      .'     :                                                                                      |           
+           |      :       :                                                                                     |           
+           |     :         :                                                                                    |           
+           |    .'          :                                                                                   |           
+           |    :           '.                                                                                  |           
+           |   :             '.                                                                                 |           
+           |  .'              '.                                                                                |           
+           |  :                ''''........................................'''''''''''''''...................   |           
+           | :                                                                                               '''|           
+           |.'                                                                                                  |           
+   15.8038 |:...................................................................................................|           
+           +----------------------------------------------------------------------------------------------------+           
+            1                                                                                                 11            
+                                                         Generation                                                         
+[15.81 ± 0.0, 22.16 ± 10.82, 17.31 ± 4.45, 17.2 ± 5.12, 17.16 ± 5.05, 17.28 ± 5.17, 17.24 ± 4.88, 17.42 ± 5.59, 17.24 ± 5.12, 17.23 ± 5.22, 16.98 ± 4.13]
+Float32[15.8059, 15.8058, 15.8055, 15.8054, 15.8054, 15.8054, 15.8054, 15.8045, 15.8039, 15.8039, 15.8038]
+Float32[15.8059, 160.7443, 87.0694, 94.5013, 87.0705, 94.5015, 86.9161, 86.9161, 86.9161, 94.4965, 86.9133]
+Min of the mins 15.8038
+Final score 15.803804

@@ -1,0 +1,38 @@
+
+@@@@ calc seq
+BenchmarkTools.Trial: 1000 samples with 1 evaluation.
+ Range (min … max):  35.600 μs …  1.921 ms  ┊ GC (min … max): 0.00% … 96.79%
+ Time  (median):     37.300 μs              ┊ GC (median):    0.00%
+ Time  (mean ± σ):   46.236 μs ± 83.908 μs  ┊ GC (mean ± σ):  7.95% ±  4.32%
+
+  ▇█▄  ▄▄▂   ▁            ▁▂▂▁                                 
+  ███▆▇████████▆▅▆▄▄▁▅▄▅▁▆████▇▅▆▅▁▄▅▄▄▄▅▅▄▄▄▄▁▁▁▁▅▄▁▄▁▄▁▁▁▁▅ █
+  35.6 μs      Histogram: log(frequency) by time      90.2 μs <
+
+ Memory estimate: 132.88 KiB, allocs estimate: 2401.
+@@@@ calculatescore
+BenchmarkTools.Trial: 19 samples with 1 evaluation.
+ Range (min … max):  265.446 ms … 270.968 ms  ┊ GC (min … max): 15.16% … 15.99%
+ Time  (median):     268.683 ms               ┊ GC (median):    15.29%
+ Time  (mean ± σ):   268.675 ms ±   1.515 ms  ┊ GC (mean ± σ):  15.50% ±  0.46%
+
+  ▁             ▁    ▁  ▁▁▁▁  ▁    ▁ ▁▁  ▁ ▁      █   ▁      ▁█  
+  █▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁█▁▁████▁▁█▁▁▁▁█▁██▁▁█▁█▁▁▁▁▁▁█▁▁▁█▁▁▁▁▁▁██ ▁
+  265 ms           Histogram: frequency by time          271 ms <
+
+ Memory estimate: 721.98 MiB, allocs estimate: 12047103.
+score: 65.61383286046075
+
+@@@@ calc layout
+BenchmarkTools.Trial: 6 samples with 1 evaluation.
+ Range (min … max):  940.477 ms …   1.008 s  ┊ GC (min … max): 18.24% … 21.55%
+ Time  (median):     966.590 ms              ┊ GC (median):    20.23%
+ Time  (mean ± σ):   972.191 ms ± 28.482 ms  ┊ GC (mean ± σ):  20.03% ±  1.84%
+
+  █    █             █       █                            █  █  
+  █▁▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▁▁█▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁█ ▁
+  940 ms          Histogram: frequency by time          1.01 s <
+
+ Memory estimate: 2.10 GiB, allocs estimate: 35736723.
+
+ only generate roulette indices once
