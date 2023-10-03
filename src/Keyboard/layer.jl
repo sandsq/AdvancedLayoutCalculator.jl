@@ -352,7 +352,14 @@ struct EffortLayer{L <: AbstractFloat} <: AbstractProtoLayer
 end
 EffortLayer(l::Vector{Vector{L}}) where {L <: AbstractFloat} = EffortLayer(ProtoLayer(l))
 # Base.getindex(l::EffortLayer, kl::KeyLocation) = l[gridposition(kl)...]
-@forward EffortLayer.layout layout, numrows, dimensions, dimensionsgran, numelements, totalkeys, Base.eltype, Base.getindex, Base.setindex!, setlayerindex!, Base.eachindex, Base.isempty
+@forward EffortLayer.layout layout, numrows, dimensions, dimensionsgran, numelements, totalkeys, Base.length, Base.eltype, Base.getindex, Base.setindex!, setlayerindex!, Base.eachindex, Base.isempty
+
+function Base.maximum(el::EffortLayer)
+    return maximum(maximum.(layout(el)))
+end
+function Base.minimum(el::EffortLayer)
+    return minimum(minimum.(layout(el)))
+end
 
 function Base.show(io::IO, l::EffortLayer)
     for rowi in eachindex(l)

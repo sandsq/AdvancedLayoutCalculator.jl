@@ -239,7 +239,7 @@ specialcases(k::Keymap) = k.specialcases
 haskeyvalue(k::Keymap, kc::Keyvalue) = kc in keys(keypathmap(k))
 function getsymmetriclocation(kl::KeyLocation, km::Keymap)
     l = layernum(kl)
-    r = rownum(kl)
+    r = getrownum(kl)
     rowlen = length(baselayer(km)[r])
     return getsymmetriclocation(kl, rowlen)
 end

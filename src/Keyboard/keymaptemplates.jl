@@ -907,6 +907,42 @@ function gen5x6keymap(;numlayers=3, template=:innerthumbbspc)
         """
 
         lsm = LayerSwitchmap(KeyLocation(), KeyLocation(1, 3, 4), KeyLocation(1, 4, 1), KeyLocation(1, 5, 4))
+    
+    elseif template == :v0515r3
+        l1 = layer"""
+            Q    SLSH     SFT     ENT     DOT    QUOT
+            TAB@f        E       H       T       I    P
+            COMM       S       E      LS@f       A       W
+            LS@f       N       I       V       F       K
+            GUI@f    CAPS@f     ALT@f      LS@f    BSPC@f     SPC@f
+            """
+
+        l2 = layer"""
+            ESC@f       Z    MINS       X       L     GRV
+            SCLN       Y       B     ENT       G       T
+            LCTL@f       U       O      LS@f       R       C
+            S       M    Y       J       D       P
+            GUI@f      __@f     ALT@f      __@f      L       __
+        """
+
+        l3 = layer"""
+            LPRN@f  RPRN@f   EQL@f  SLSH@f  ASTR@f  MINS@f
+            LBRC@f  RBRC@f     1@f     2@f     3@f  PLUS@f
+            LCBR@f  RCBR@f     4@f     5@f     6@f   ENT@f
+            LS@f  COMM@f     7@f     8@f     9@f  UNDS@f
+            __@f    __@f  COLN@f     0@f   DOT@f   __@f
+        """
+
+        l4 = layer"""
+            __    __    __    __    __    __
+            F1    F2    F3    F4    F5    F6
+            __  LEFT    UP  DOWN  RGHT   DEL
+            SFT  HOME  PGUP  PGDN   END  PSCR
+            __    __    __    LS    __    __
+        """
+
+        lsm = LayerSwitchmap(KeyLocation(), KeyLocation(1, 3, 4), KeyLocation(1, 4, 1), KeyLocation(1, 5, 4))
+
     end
 
     lsm = LayerSwitchmap(locations(lsm)[1:3])

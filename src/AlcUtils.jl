@@ -10,6 +10,7 @@ export @forward, @exported_enum, _NO
 export KeymapLogLevel, ScoringLogLevel, CounterLogLevel, MutationLogLevel, CrossoverLogLevel, currentdebuglevel,
     char2keycodes,
     string2keycodes,
+    keycode2string,
     Commonshiftedsymbols,
     Commonreplacementexclusions
 
@@ -221,6 +222,51 @@ function char2keycodes(c::Char; shiftedsymbols=Commonshiftedsymbols)
         push!(kcs, kc)
     end
     return kcs
+end
+
+function keycode2string(kc::Keycode)
+
+    # '[' => _LBRC
+    # ']' => _RBRC
+    # '\\' => _BSLS
+    # '~' => _TILD
+    # '!' => _EXLM
+    # '@' => _AT
+    # '#' => _HASH
+    # '$' => _DLR
+    # '%' => _PERC
+    # '^' => _CIRC
+    # '&' => _AMPR
+    # '*' => _ASTR
+    # '(' => _LPRN
+    # ')' => _RPRN
+    # '_' => _UNDS
+    # '+' => _PLUS
+    # '{' => _LCBR
+    # '}' => _RCBR
+    # '|' => _PIPE
+    # ':' => _COLN
+    # '"' || '“' || '”' => _DQUO
+    # '<' => _LT
+    # '>' => _GT
+    # '?' => _QUES
+    # ' ' => _SPC
+    # '\n' => _ENT
+    # 'ê' || 'à' || 'é' || '\r' || 'α' || '\ufeff' => _PASS
+    # _ => begin display(lowerc); @warn "Corresponding keycode not found."; _PASS end
+    sym = Match.@match kc begin
+        $_MINS => "-"
+        $_EQL => "="
+        $_SCLN => ";"
+        $_QUOT => "'"
+        $_GRV => "`"
+        $_COMM => ","
+        $_DOT => "."
+        $_SLSH => "/"
+        _ => string(kc)[2:end]
+    end
+
+    return sym
 end
 
 function string2keycodes(s::String; shiftedsymbols=Commonshiftedsymbols)

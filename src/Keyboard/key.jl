@@ -10,8 +10,8 @@ export
     KeyLocation,
     layernum,
     gridposition,
-    rownum,
-    colnum,
+    getrownum,
+    getcolnum,
     getsymmetriclocation,
     KL,
 
@@ -172,27 +172,27 @@ KeyLocation(ln::Int, rn::Int, cn::Int) = KeyLocation(ln, (rn, cn))
 # KeyLocation() = KeyLocation(layernum=0, gridposition=(0, 0))
 layernum(k::KeyLocation) = k.layernum
 gridposition(k::KeyLocation) = k.gridposition
-rownum(k::KeyLocation) = gridposition(k)[1]
-colnum(k::KeyLocation) = gridposition(k)[2]
+getrownum(k::KeyLocation) = gridposition(k)[1]
+getcolnum(k::KeyLocation) = gridposition(k)[2]
 # combokeys(k::KeyLocation) = k.combokeys
 function Base.:(==)(k1::KeyLocation, k2::KeyLocation)
     return (layernum(k1) == layernum(k2)) && (gridposition(k1) == gridposition(k2)) #&& (combokeys(k1) == combokeys(k2))
 end
 function getsymmetriclocation(k::KeyLocation, rowlen::Int)
     layer = layernum(k)
-    row = rownum(k)
-    col = colnum(k)
+    row = getrownum(k)
+    col = getcolnum(k)
     return KeyLocation(layer, (row, rowlen-(col-1)))
 end
 function Base.isless(kl1::KeyLocation, kl2::KeyLocation)
     if layernum(kl1) > layernum(kl2) return false end
     if layernum(kl1) < layernum(kl2) return true end
     # kl1 and kl2 are the same layer
-    if rownum(kl1) > rownum(kl2) return false end
-    if rownum(kl1) < rownum(kl2) return true end
+    if getrownum(kl1) > getrownum(kl2) return false end
+    if getrownum(kl1) < getrownum(kl2) return true end
     # kl1 and kl2 are the same row
-    if colnum(kl1) > colnum(kl2) return false end
-    if colnum(kl1) < colnum(kl2) return true end
+    if getcolnum(kl1) > getcolnum(kl2) return false end
+    if getcolnum(kl1) < getcolnum(kl2) return true end
     return false
 
 
