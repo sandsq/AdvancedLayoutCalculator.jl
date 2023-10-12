@@ -1,0 +1,46 @@
+I've been designing a one-handed layout with a genetic algorithm (50-60 wpm)
+
+Hey ergo crowd, hope yall find this interesting. As the title suggests, I've been working on a one-handed layout -- it's for the left hand, but can just be mirrored for the right. I made a video about some of the design considerations and stuff https://youtu.be/xDQXokCON-w, though it's geared more toward a general audience. 
+
+Keyboard pic: https://imgur.com/z2GuYpR
+Layout https://github.com/sandsq/qmk_nyquistpad_onehanded (I need to add backslash still):
+
+
+    LAYER 4---------------------------------------------
+        __      COPY    PASTE    CUT   SAVE     UNDO
+        F1        F2       F3     F4     F5       F6
+        __      LEFT       UP   DOWN   RGHT      DEL
+       SFT      HOME     PGUP   PGDN    END     PSCR
+        F7        F8       F9     __    F10       __
+
+    LAYER 3---------------------------------------------
+        LPRN    RPRN     EQL    SLSH   ASTR     MINS
+        LBRC    RBRC       1       2      3     PLUS
+        LCBR    RCBR       4       5      6      ENT
+          __    COMM       7       8      9     UNDS
+          __      __    COLN       0    DOT      SFT
+
+    LAYER 2---------------------------------------------
+         ESC    BSLS    MINS       X       Z     GRV
+        SCLN       Y       B     ENT       G       T
+        LCTL       U       O      __       R       C
+           S       M       Y       J       D       J
+         GUI      __     ALT      __      __       L
+
+    LAYER 1---------------------------------------------
+           Q    SLSH     SFT     ENT     DOT    QUOT
+         TAB       E       H       T       I       P
+        COMM       S       E      ^2       A       W
+          ^3       N       I       V       F       K
+         GUI    CAPS     ALT      ^4    BSPC     SPC
+
+
+Layers 1 and 2 are generated with the genetic algorithm I wrote (3 and 4 are manually placed, layers + mods are one-shot); the core of it is the standard letter frequency optimization, roll optimization, and same finger minimization. I specifically designed it to account for layer switching (more features to be added) which is why row 3, col 4 in layer 1 end up being what switches to the other set of alphas. This allows some fast rolls of bigrams like "er", "ed", "nd" (from "and"), "on", kind of like balancing the space constraints. Putting a layer switch in the middle has its share of "feels good to type" and "feels awkward to type". The former generally wins out but I think I need to get faster to really get an idea of if this is the right approach. 
+
+Speaking of speed, if I focus I can get 50-60 wpm on monkeytype quotes (so capitalization and punctuation, video has around 2 minutes of typing tests); I've been practicing for about a month averaging an hour a day and my goal is 80 wpm or so.
+
+The algorithm is here https://github.com/sandsq/AdvancedLayoutCalculator.jl but I'm not done so it's not really usable for others yet. It is theoretically designed to be flexible; it can take an arbitrary keyboard size, uses an effort grid like BEAKL, and different optimization targets can be swapped in and out. 
+
+But yeah, still a lot to explore. Would love to hear people's thoughts or answer any questions.
+
+
