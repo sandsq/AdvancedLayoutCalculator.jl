@@ -29,6 +29,7 @@ AbstractAlgebra = "0.40"
 DataStructures = "0.18"
 BenchmarkTools = "1"
 JLD2 = "0.4"
+Match = "2"
 ProgressBars = "1"
 julia = "1.7"
 
